@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1623362348901.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "30555591",
+    "lastKnownWriteTime" : 1624552914,
+    "last_content_update" : 1624552914369,
+    "path" : "C:/Users/cajordan/Desktop/Digital_Neighborhood/global.R",
+    "project_path" : "global.R",
+    "properties" : {
+        "cursorPosition" : "8,14",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

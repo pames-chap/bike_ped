@@ -1,0 +1,53 @@
+#INTERACTIVE DATA TABLE FOR BIKE/PED STATISTICS
+library("shiny")
+library("stringr")
+library("tidyverse")
+library("dplyr")
+
+data <-read.csv("/Users/pearsonames/Desktop/IRAD Digital Neighborhoods/datasets/bike_ped_model_sweep.csv")
+data_clean <- data %>% select(-current_state_diabetes, -min_improvement_diabetes, -max_improvement_diabetes, -current_state_high_bp,
+                              -min_improvement_high_bp, -max_improvement_high_bp, -current_state_poor_phys_health, -min_improvement_poor_phys_health,
+                              -max_improvement_poor_phys_health)
+
+data_clean <- data_clean %>%  
+  mutate(median_improvement_diabetes = round(median_improvement_diabetes, 4),
+         median_improvement_high_bp = round(median_improvement_high_bp, 4),
+         median_improvement_poor_phys_health = round(median_improvement_poor_phys_health, 4))
+
+col_order <-c("census_tract", "mileage_added", "median_improvement_diabetes", "median_improvement_high_bp", "median_improvement_poor_phys_health")
+data_clean <- data_clean[, col_order]
+
+#UI-----------------------------------------------------------------------------
+ui <- fluidPage(
+  titlePanel("Bike and Pedestrian Model Statistics"),
+  
+  fluidRow( #Create a new Row in the UI for selectInputs
+    column(4, #4 chosen for UI spacing reasons 
+           selectInput("census_tract", #Determining input value
+                       "Census Tract:",
+                       c("All",
+                         unique(data_clean$census_tract))))),
+  
+  sliderInput(inputId = "mileage",
+              label = "Range for Mileage Added:",
+              value = c(min(data_clean$mileage_added), max(data_clean$mileage_added)), min = min(data_clean$mileage_added), max = max(data_clean$mileage_added)),
+  
+  DT::dataTableOutput("table")  #Create a new row for the table.
+)
+
+#SERVER-------------------------------------------------------------------------
+server <- function(input, output) {  #Filter data based on selections
+  
+  output$table <- DT::renderDataTable(DT::datatable(rownames = FALSE, {
+    if (input$census_tract != "All") {
+      data_clean <- data_clean[data_clean$census_tract == input$census_tract,] #<-Comma for syntax
+    }
+    data_clean <- data_clean[data_clean$mileage_added >= input$mileage[1] & data_clean$mileage_added <= input$mileage[2],] #filtering mileage added
+    
+    data_clean #Else list all data
+  }))
+}
+
+#APP----------------------------------------------------------------------------
+shinyApp(ui = ui, server = server)
+

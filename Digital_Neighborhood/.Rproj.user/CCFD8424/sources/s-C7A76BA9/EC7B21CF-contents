@@ -1,0 +1,55 @@
+#INTERACTIVE DATA TABLE FOR NBA PLAYER STATISTICS
+library("shiny")
+library("stringr")
+
+data <-read.csv("datasets/nba_players.csv")
+
+#UI-----------------------------------------------------------------------------
+ui <- fluidPage(
+  titlePanel("NBA Player Statistics"),
+  
+  textInput(inputId = "name",
+            label = "Player Name:",
+            value = ""),
+  
+  fluidRow( #Create a new Row in the UI for selectInputs
+    column(4, #4 chosen for UI spacing reasons 
+           selectInput("team", #Determining input value
+                       "Player Team:",
+                       c("All",
+                         unique(as.character(data$team_abbreviation)))))),
+  
+  sliderInput(inputId = "height",
+              label = "Range for Player Height",
+              value = c(175,200), min = min(data$player_height), max = max(data$player_height)),
+  
+  sliderInput(inputId = "weight",
+              label = "Range for Player Weight",
+              value = c(100,150), min = 59, max = 164),
+  
+  DT::dataTableOutput("table")  #Create a new row for the table.
+)
+
+#SERVER-------------------------------------------------------------------------
+server <- function(input, output) {  #Filter data based on selections
+  
+  output$table <- DT::renderDataTable(DT::datatable({#Syntax for filtering data
+    if (input$team != "All") {
+      data <- data[data$team_abbreviation == input$team,] #<-Comma for syntax
+    }
+    
+    if (input$name != "") {
+      data <- data[str_detect(data$player_name, input$name),] #<- Comma for syntax
+    }
+    #Filtering height/weight with slider
+    data <- data[data$player_height >= input$height[1] & data$player_height <= input$height[2],]
+    data <- data[data$player_weight >= input$weight[1] & data$player_weight <= input$weight[2],]
+    
+    
+    data #Else list all data
+  }))
+}
+
+#APP----------------------------------------------------------------------------
+shinyApp(ui = ui, server = server)
+

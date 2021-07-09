@@ -1,0 +1,42 @@
+
+
+
+
+###################################################
+# Libraries
+###################################################
+
+library(shiny)
+library(leaflet)
+library(sf)
+library(here)
+library(tidyverse)
+
+
+###################################################
+# Shape files
+###################################################
+
+# Read in shapefiles and convert to large spatial polygon dataframe
+norfolk_tract <- st_read(here::here("data", "shp", "norfolk_tract.shp"))
+norfolk_tract_sp <- sf:::as_Spatial(norfolk_tract)
+
+
+
+###################################################
+# Color Scheme
+###################################################
+
+light_blue_color <- "#5DA3B2"
+magenta_color <- "#8B008B"
+dark_blue_color <- "#174A7E"
+dark_gray_color <- "#636466"
+light_gray_color <- "#C7C8CA"
+
+
+
+
+
+
+
+

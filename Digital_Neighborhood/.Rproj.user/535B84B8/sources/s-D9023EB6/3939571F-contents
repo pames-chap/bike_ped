@@ -1,0 +1,36 @@
+
+
+
+
+###################################################
+#
+# UI for Map Tab
+#
+###################################################
+
+tagList(
+  div(class = "container-fluid",
+      #h1("Neighborhood Browser"),
+      # fluidRow(
+      #   column(width = 2,
+      #          uiOutput('map_location')
+      #   )
+      # ),
+      
+      fluidRow(
+        #  Trun the leaflet background to white
+        tags$head(
+          tags$style(HTML(".leaflet-container { background: #ffffff; }"))
+        ),
+        column(5,
+               leafletOutput("map", height = 700)
+        ),
+        column(width = 2, offset = 1,
+               h2(textOutput("map.tract"))
+        ),
+        column(width = 2,
+               uiOutput('tract_location')
+               )
+      )
+   )
+)

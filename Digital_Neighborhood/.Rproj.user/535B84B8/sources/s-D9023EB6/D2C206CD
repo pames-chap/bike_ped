@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1623357828679.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D2C206CD",
+    "lastKnownWriteTime" : 1624633566,
+    "last_content_update" : 1624633566638,
+    "path" : "C:/Users/cajordan/Desktop/Digital_Neighborhood/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+        "cursorPosition" : "16,51",
+        "scrollLine" : "3"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

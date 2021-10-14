@@ -1,0 +1,23 @@
+﻿is_church,is_school,name,street_address,city,state,zip_code,county,phone_number,title,head,website,census_tract,census_tract_landarea,lon,lat
+1,0,Second Calvary Baptist Church,2940 Corprew Avenue,Norfolk,VA,23504,,757.627.7222,Reverend,Dr. Geoggrey V. Guns,https://secondcalvary.org,51710004500,773401,-76.250114,36.850563
+1,0,1st Baptist Bute Street,418 East Bute Street,Norfolk,VA,23510,,757.622.6701,Reverend,Dr. Robert G. Murray,https://www.firstbaptistnorfolk.org ,51710004800,1015137,-76.28493,36.85242
+1,0,Queen Street Baptist Church,413 E Brambleton Avenue,Norfolk,VA,23510,,757.622.4458,Reverend,"Glenn E. Porter, D. Min",https://myqueenstreet.com/,51710004800,1015137,-76.28492,36.853798
+1,0,New Calvary Baptist Church,800 E Virginia Beach Boulevard,Norfolk,VA,23504,,757.627.1269,Reverend,Dr. William Marcus Small,http://www.newcalvarynorfolk.org/,51710004200,461318,-76.278275,36.85591
+1,0,1st Calvary Baptist Church,813 Henry Street,Norfolk,VA,23504,,757.622.7418,Reverend,D. Tyrone Brandon Sr.,https://www.facebook.com/pages/category/Nonprofit-Organization/First-Calvary-Baptist-Church-Norfolk-107835737934128/,51710004200,461318,-76.277504,36.85682
+1,0,Mount Lebanon baptist Church,1141 Campostella Road,Norfolk,VA,23523,,757.543.0951,Reverend,Bobby A. Bowser,https://www.mlbcnorfolk.com/index.php,51710005100,2798912,-76.26152,36.8299
+1,0,Shiloh Baptist Church,745 Park Avenue,Norfolk,VA,23504,,757.625.4367,Reverend,Dr. Keith I. Jones,https://welcometoshiloh.com/,51710004700,1381197,-76.26941,36.847866
+1,0,St. Mary's Basilica,1000 Holt Street,Norfolk,VA,23504,,757.622.4487,Reverend,Jim Curran,https://www.basilicaofsaintmary.org/,51710004800,1015137,-76.2814,36.846973
+1,0,New Mt. Carmel Baptist Church,1100 Church Street,Norfolk,VA,23510,,757.623.7101,--,--,https://www.facebook.com/pages/category/Religious-Organization/Mount-Carmel-Baptist-Church-Norfolk-405780456103028/,51710004200,461318,-76.27864,36.857426
+1,0,First Presbyterian Church (Ghent Community),820 Colonial Avenue,Norfolk,VA,23507,,757.625.1697,Reverend,Jim Wood,http://www.fpcnorfolk.org/,51710004001,375559,-76.29561,36.860653
+1,0,United House of Prayer,1206 Church Street,Norfolk,VA,23504,,757.640.8454,--,--,http://united-house-of-prayer-norfolk.edan.io/,51710003501,1149097,-76.27822,36.858334
+1,0,Bethany Baptist Church,2587 Campostella road,Chesapeake,VA,23324,,757.543.5887,Reverend,H. Patrick Cason,https://www.experiencebethany.com/,51550020100,1665201,-76.25609,36.80864
+1,0,Metropolitan AME Church,822 E Brambleton Avenue,Norfolk,VA,23504,,757.625.0231,Reverend,Sharon D. Hall,https://greatermet.com/,51710004200,461318,-76.27952,36.852886
+1,0,First Baptist Berkley,706 Berkley Ave.,Norfolk,VA,23523,,757.543.4296,Reverend,"William D. Tyree, III",https://www.fbcberkley.org/home,51710005000,2615719,-76.28521,36.833294
+1,0,Faith Deliverance Christian Center,1010 E 26th Street,Norfolk,VA,23504,,757.624.1950,Pastor,Sharon S. Riley,https://faithdeliverance.org/,51710002900,1788621,-76.27473,36.87213
+1,0,Calvary Revival,5833 Poplar Hall Drive,Norfolk,VA,23502,,757.321.9700,Bishop,Courtney McBath,https://crcglobal.org/,51710006901,4298518,-76.206215,36.84885
+0,1,Tidewater Park Elementary,1045 E. Brambleton Avenue,Norfolk,VA,23504,,757.628.2500,Principal,Dr. Sharon Phillips,,51710004800,1015137,-76.277054,36.85095
+0,1,Ruffner Middle School (William H. Ruffner Academy),610 May Avenue,Norfolk,VA,23504,,757.628.2466,Principal,Jeryl Scott,,51710004800,1015137,-76.27608,36.847992
+0,1,Booker T. Washington High School,1111 Park Avenue,Norfolk,VA,23504,,757.628.3575,Principal,Dr. Margie G. Stallings,,51710004300,1178742,-76.26512,36.852943
+0,1,Young Park Elementary (P. B. Young Sr. Elementary) ,543 E. Olney Road,Norfolk,VA,23510,,757.628.2588,Principal,Dr. Dwana White,,51710004100,409608,-76.28429,36.855698
+0,1,Chesterfield Elementary (Chesterfield Academy Elementary) ,2915 Westminster Avenue,Norfolk,VA,23504,,757.628.2544,Principal,T. Michele Logan,,51710004600,1141944,-76.25199,36.84486
+0,1,Campostella STEM Academy (Southside STEM Academy at Campostella),1106 Campostella Road,Norfolk,VA,23523,,757.494.3850,Principal,Mrs. Lenthia L. Willie-Clark,,51710005100,2798912,-76.2613,36.830177

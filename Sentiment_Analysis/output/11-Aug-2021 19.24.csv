@@ -1,0 +1,926 @@
+"","ID","screen_name","all_words","all_afinn_values","afinn_score","custom_score"
+"1",1,"BIG_Bri97","winning, glad","4, 3",3.5,0
+"2",2,"keithparnell","bad, no, hates","-3, -1, -3",-2.33,-0.58
+"3",3,"TheBlackNerd","funny, like, sparkling, weird, weird, idiot, complain, good, complain, cheered, terrible, craziest, joke, smarter, love, stop, stupid, joke, stuck, stop, funny, no, no, yes, win, glad, fear, crying, favorite, sparkling, complain, jealous, good, no, die, like, sorry, fun","4, 2, 3, -2, -2, -3, -2, 3, -2, 2, -3, -2, 2, 2, 3, -1, -2, 2, -2, -1, 4, -1, -1, 1, 4, 3, -2, -2, 2, 3, -2, -2, 3, -1, -3, 2, -1, 4",0.32,0.16
+"4",4,"musicnerdzradio","ill, no, love, love, love, fresh, top, good, love, super, clean, leave, love, love, love, pretty, clean, love, stop, die, clean, heaven, optimistic, love, clean, fire, perfect, lonely, clean, love, clean, love","-2, -1, 3, 3, 3, 1, 2, 3, 3, 3, 2, -1, 3, 3, 3, 1, 2, 3, -1, -3, 2, 2, 2, 3, 2, -2, 3, -2, 2, 3, 2, 3",1.56,0.35
+"5",5,"EJL1984","love, great, great, cool, lol, unaware, win","3, 3, 3, 1, 3, -2, 4",2.14,0
+"6",6,"ohitstarik","perfect, wish, blocked, fuck, steal, wtf, cry","3, 1, -1, -4, -2, -4, -1",-1.14,0
+"7",7,"therealslimthi","love","3",3,0
+"8",8,"saltyzamora","miss, want, shit, like, fuck","-2, 1, -4, 2, -4",-1.4,0
+"9",9,"QuliaQui","no, block, stop","-1, -1, -1",-1,0
+"10",10,"chayeezy","confused","-2",-2,0
+"11",11,"faw64","agree, no, no, chance, matter, wins, agree, love, lol, want, lol, agree, lol, love, fine, dump, leave, bothers, good, embarrassed, tears, dump, stop, crying","1, -1, -1, 2, 1, 4, 1, 3, 3, 1, 3, 1, 3, 3, 2, -1, -1, -2, 3, -2, -2, -1, -1, -2",0.71,0.41
+"12",12,"camriendm","questioning, crazy, love","-1, -2, 3",0,0
+"13",13,"rparris83","stopped","-1",-1,0
+"14",14,"cheesetownradio","clean, clean, clean, nasty, clean, dirty, love, dirty, bad, clean, trap, dirty, big, dirty, clean, clean, clean, dirty, dirty, love, clean, clean, sexy, clean, clean, dirty, thank, clean, true, clean, masterpiece, clean, alone, dirty, dirty, clean, want, dirty, clean, like, clean, clean, cry, clean, please, dirty, yummy, clean, clean, crazy, clean, sunshine, clean, dirty, glory, clean, love, love, better, rich","2, 2, 2, -3, 2, -2, 3, -2, -3, 2, -1, -2, 1, -2, 2, 2, 2, -2, -2, 3, 2, 2, 3, 2, 2, -2, 2, 2, 2, 2, 4, 2, -2, -2, -2, 2, 1, -2, 2, 2, 2, 2, -1, 2, 1, -2, 3, 2, 2, -2, 2, 2, 2, -2, 2, 2, 3, 3, 2, 2",0.88,0
+"15",15,"TheLifeOfPxblo","hate","-3",-3,0
+"16",16,"reign_supremee","drop, fire, childish","-1, -2, -2",-1.67,-0.58
+"17",17,"lynnboo19826211","glad, welcome, support, ass, please, damnit, glad, blocked, love, glad, thank, privileged, fuck, privileged, wtf","3, 2, 2, -4, 1, -4, 3, -1, 3, 3, 2, 2, -4, 2, -4",0.4,0
+"18",18,"brejastew","like, no, chance, please, good, lol, better, missing, fake, abusive, like","2, -1, 2, 1, 3, 3, 2, -2, -3, -3, 2",0.55,0.6
+"19",19,"qtquin_","sick","-2",-2,0
+"20",20,"datboigreen","like, dread, love, struggling, yeah, wasting, piss, poor, ass, shit","2, -2, 3, -2, 1, -2, -4, -2, -4, -4",-1.4,0
+"21",21,"sherriparsons","yes, blame, crime, poor, crime, committed, racist","1, -2, -3, -2, -3, 1, -3",-1.57,0
+"22",22,"sserb","thanks, enjoying","2, 2",2,0.71
+"23",23,"CiaraWi93583529","better, hopefully, feeling, excited, yes, loving, chance, good","2, 2, 1, 3, 1, 2, 2, 3",2,0.71
+"24",24,"harryphood","favorite, like","2, 2",2,0
+"25",25,"vintagejoehill","ruining, evil, resign","-2, -3, -1",-2,0
+"26",26,"jhermann","hope, die, like, favor, bullshit, pretty, good, complain, no, top, top, shoot","2, -3, 2, 2, -4, 1, 3, -2, -1, 2, 2, -1",0.25,0.29
+"27",27,"DISDEADD","shit","-4",-4,0
+"28",28,"WODUplaylist","clean, dead, clean, big, struggle, big, clean, love, good, hard, clean, dream, matter","2, -3, 2, 1, -2, 1, 2, 3, 3, -1, 2, 1, 1",0.92,0
+"29",29,"GunGal5213","like","2",2,0
+"30",30,"DrNoelleGabriel","wow","4",4,0
+"31",31,"nywalk_","no, thanks, ass","-1, 2, -4",-1,0
+"32",32,"Highflyer757A","like, fire, fuck, laugh","2, -2, -4, 1",-0.75,0
+"33",33,"herbanlegend_1","like","2",2,0
+"34",34,"pomijo1992","share, love, better, hard, controversial, sunshine, like, win, win, win, leave, alone, success, mad, cries, no, no, no, no, sunshine, hurt, rich, sad, fine, hell","1, 3, 2, -1, -2, 2, 2, 4, 4, 4, -1, -2, 2, -3, -2, -1, -1, -1, -1, 2, -2, 2, -2, 2, -4",0.28,0.4
+"35",35,"Alaysa__","hell, yes, lmao","-4, 1, 4",0.33,0
+"36",36,"Leonard_D5","happy, want, losing, damn, damn, hope, unprofessional, like, lmfao","3, 1, -3, -4, -4, 2, -2, 2, 4",-0.11,0
+"37",37,"ashtown47","like, warning, misleading","2, -3, -3",-1.33,0
+"38",38,"Dogsandsailors1","great","3",3,0
+"39",39,"jonrobinson07","please","1",1,0
+"40",40,"bandupcope","niggas, crazy","-5, -2",-3.5,0
+"41",41,"virginianpilot","innovation, focused, leak, great, forced, no, fine, promoted, top, cancel, effectively, misinformation, mandatory, fun, hurt, stop","1, 2, -1, 3, -1, -1, 2, 1, 2, -1, 2, -2, -1, 4, -2, -1",0.44,0.25
+"42",42,"matyofc","trauma, big, sad","-3, 1, -2",-1.33,0
+"43",43,"tdowdy11","confidence, depressing, struggle, hopefully, good, delay, nice, win, competitive, losing, want, win, yes, bad","2, -2, -2, 2, 3, -1, 3, 4, 2, -3, 1, 4, 1, -3",0.79,0
+"44",44,"Urkelator_90210","wish, pissed, bad, lol, better","1, -4, -3, 3, 2",-0.2,0
+"45",45,"LD__30","lmao, no, weak, shit, motherfucking, yeah, no, sympathy, lol, lmao","4, -1, -2, -4, -5, 1, -1, 2, 3, 4",0.1,-0.32
+"46",46,"xKYREx","want, bad, better, starving, lost, damn, ugly, ass, mad, yes, better","1, -3, 2, -2, -3, -4, -3, -4, -3, 1, 2",-1.45,0.3
+"47",47,"nymphocherie","worst, wtf, like, lmao, no, bad, wtf, fine, bitch, funny, hilarious, like, crying, sucks, fucking, marvel, bitch","-3, -4, 2, 4, -1, -3, -4, 2, -5, 4, 2, 2, -2, -3, -4, 3, -5",-0.88,-0.24
+"48",48,"westghentwitch","good, lack, sad, win, like, misinformation","3, -2, -2, 4, 2, -2",0.5,0.41
+"49",49,"FirstWarnChespk","fair, pleasant","2, 3",2.5,0
+"50",50,"ant_harris2","goodness, miss, free, good, clear, like, laughed, hard","3, -2, 1, 3, 1, 2, 1, -1",1,0
+"51",51,"CliffKFF","opportunity","2",2,1
+"52",52,"MrPo3tic","fake, lol, no, ass","-3, 3, -1, -4",-1.25,0
+"53",53,"BilleyBrooks","agree","1",1,0
+"54",54,"sports___alerts","interested, free, top","2, 1, 2",1.67,0
+"55",55,"GoldenBallSocce","proud, free, allow","2, 1, 1",1.33,0
+"56",56,"sassymatt666","natural","1",1,0
+"57",57,"NonStopPop","yeah","1",1,0
+"58",58,"DatKidUgly","ashamed, wtf","-2, -4",-3,0
+"59",59,"theoriginalBwag","love, funny, frantic","3, 4, -1",2,0
+"60",60,"profrichmond","yeah, natural, love, super, good, likes, horrible, no, worried, likes","1, 1, 3, 3, 3, 2, -3, -1, -3, 2",0.8,0.32
+"61",61,"AceKoopa400","worst, lmao, worst, better, like, leave, niggas, useless, no, lol, damn, niggas, like, want, no","-3, 4, -3, 2, 2, -1, -5, -2, -1, 3, -4, -5, 2, 1, -1",-0.73,-0.26
+"62",62,"imtryingjpeg","favorites","2",2,0
+"63",63,"Blocka2x1","hell","-4",-4,0
+"64",64,"_Track4lyfe_100","insane","-2",-2,0
+"65",65,"brandy_scrim","excited, excited, like, cutting, like","3, 3, 2, -1, 2",1.8,0
+"66",66,"good_elo","confident, proud","2, 2",2,0
+"67",67,"DailyPowrRangrs","love, like, yeah, true, lol, loved, allow, nice, thanks, rich, want, successful, important, success, cool, agreed, yeah, allow, drop, damn, care, good, like, god, damn, like, like, perfect, allow, pretty, awful, like, moron, yeah, shame, greedy, fuck, cool, awful, no, hero, hero, fan, fuck, wish, thanks, want, dick, lol, no, like, like","3, 2, 1, 2, 3, 3, 1, 3, 2, 2, 1, 3, 2, 2, 1, 1, 1, 1, -1, -4, 2, 3, 2, 1, -4, 2, 2, 3, 1, 1, -3, 2, -3, 1, -2, -2, -4, 1, -3, -1, 2, 2, 3, -4, 1, 2, 1, -4, 3, -1, 2, 2",0.71,0.28
+"68",68,"Wavvy_Gz","damn, shit, shit, shit, like, like, lost, calm, happy, bitch, hope, pay, bullshit, lack, good","-4, -4, -4, -4, 2, 2, -3, 2, 3, -5, 2, -1, -4, -2, 3",-1.13,0.26
+"69",69,"JF3ars","winning, super, mindless, yes, yes","4, 3, -2, 1, 1",1.4,0
+"70",70,"roderickgraham","good, hurt, big, important, problems, good, upset, racist, confident, racism, enjoy, like, safe, insane, wrong, glad, want, want, smart, racist, inferior, racist, no, racist, hate, like, difficult, want, attraction, fear, mongering, death","3, -2, 1, 2, -2, 3, -2, -3, 2, -3, 2, 2, 1, -2, -2, 3, 1, 1, 1, -3, -2, -3, -1, -3, -3, 2, -1, 1, 2, -2, -2, -2",-0.34,0.35
+"71",71,"ZeroLux34","hard","-1",-1,-1
+"72",72,"neButterfly","smarter, best","2, 3",2.5,0.71
+"73",73,"TugDis","fair, award, winning, stopped","2, 3, 4, -1",2,0
+"74",74,"CharlesFStanton","nice, support, support, like","3, 2, 2, 2",2.25,0
+"75",75,"Drileymack","blame, save, good, luck, please, great, like, threatened, killing, please, faith, miserable, wow, kills, wow, amazing","-2, 2, 3, 3, 1, 3, 2, -2, -3, 1, 1, -3, 4, -3, 4, 4",0.94,0.25
+"76",76,"micahmyers","love","3",3,0
+"77",77,"MichelleWolfTV","proud","2",2,0
+"78",78,"EdwardCrain12","cock, nice","-5, 3",-1,0
+"79",79,"ShreddaSosa","nuts","-3",-3,0
+"80",80,"YoungRose4L","want","1",1,0
+"81",81,"BrianOHemphill","great, stops","3, -1",1,0
+"82",82,"Lexboogie758_","trauma, stop, hate, honest, bad, immune, best, weird","-3, -1, -3, 2, -3, 1, 3, -2",-0.75,0
+"83",83,"1amqueentiffany","loved, good, like, mad, mad, like, mad","3, 3, 2, -3, -3, 2, -3",0.14,0.38
+"84",84,"dillon_atc_emt","crap","-3",-3,0
+"85",85,"capturedbyscoti","wow","4",4,0
+"86",86,"AGuyNamed_Drew","shit, fucking, starving, wrong, fucked, gun, sorry, hurt","-4, -4, -2, -2, -4, -1, -1, -2",-2.5,0
+"87",87,"Cosi_DopeXD","shit, lol, damn","-4, 3, -4",-1.67,0
+"88",88,"_shaaaay___","like, lol, darkest, like, matter","2, 3, -2, 2, 1",1.2,0
+"89",89,"PlummerCollin","winning","4",4,0
+"90",90,"NoahZukowski","like, like, top, fuck, bless, cool, sick, lol, like, dreams, block, like, thank, god, terrible, accidentally, pain, poison, super, like, cool, lol, hacked, rig","2, 2, 2, -4, 2, 1, -2, 3, 2, 1, -1, 2, 2, 1, -3, -2, -2, -2, 3, 2, 1, 3, -1, -1",0.46,-0.41
+"91",91,"shrdoula","honest, laugh, funny, lol, gun, cut, shit, like, ill, ass, thank, god, shit, screaming, shit, fucking, good, love, big, lol, niggas, no, stop, madness, want, yes, like, desperate, scare, best, lol, like, love","2, 1, 4, 3, -1, -1, -4, 2, -2, -4, 2, 1, -4, -2, -4, -4, 3, 3, 1, 3, -5, -1, -1, -3, 1, 1, 2, -3, -2, 3, 3, 2, 3",-0.03,0.35
+"92",92,"Mostly_THC","haters, amazing, congrats, good, hope, commitment, blocked, shit, block, fun, slut, best, miss, lost, good, free, free, happy, easy, congrats, drunk, irony","-3, 4, 2, 3, 2, 2, -1, -4, -1, 4, -5, 3, -2, -3, 3, 1, 1, 3, 1, 2, -2, -1",0.41,0.64
+"93",93,"JayGlobalFr","boring, ass","-3, -4",-3.5,0
+"94",94,"13NewsNow","worth, chance, helps, protect, safe, entitled, contentious","2, 2, 2, 1, 1, 1, -2",1,0
+"95",95,"jalenmontana3","shit, lame, shit, ass, worst, shit, stupid","-4, -2, -4, -4, -3, -4, -2",-3.29,-0.38
+"96",96,"max_biggaveL74","shit, lol, like, pay, thanks, love, appreciate, lmao","-4, 3, 2, -1, 2, 3, 2, 4",1.38,0
+"97",97,"CeCe_Montana","upset, like, damn, dumb, like, upset, like, confused","-2, 2, -4, -3, 2, -2, 2, -2",-0.88,0
+"98",98,"videoBL","like, like, anxiety, healthy","2, 2, -2, 2",1,0
+"99",99,"_Grandson23","good, fucked, bitch","3, -4, -5",-2,0.58
+"100",100,"Hvwkmoon","big","1",1,0
+"101",101,"buickregal","feeling, good, lol, no, kind, shit, no, torn, win","1, 3, 3, -1, 2, -4, -1, -2, 4",0.56,0.33
+"102",102,"tarheels50","great, great","3, 3",3,0
+"103",103,"_JoeDaHoe","hope","2",2,0
+"104",104,"SamuraiCER","wow, hard, hate, better, terrible","4, -1, -3, 2, -3",-0.2,-0.45
+"105",105,"JonZayicek","great, wish, like","3, 1, 2",2,0
+"106",106,"JBrittAlways","disorder, god, love, suicide, suicide","-2, 1, 3, -2, -2",-0.4,0
+"107",107,"Sharkcitysquad","discord","-2",-2,0
+"108",108,"HayesPope","sedition, no","-2, -1",-1.5,0
+"109",109,"taliyahband","happy","3",3,0
+"110",110,"ashpot1991","love, stuck, drunk, lol, fucking, amazing, ass, ass","3, -2, -2, 3, -4, 4, -4, -4",-0.75,0
+"111",111,"cynical_tutu","fuck, shit, yes, like, suffering, prevented, easy, damn, selfish, like, tears, goddamn, fucking, trauma, injured, haunt, care, sick, death, no, matter, hard, fight","-4, -4, 1, 2, -2, -1, 1, -4, -3, 2, -2, -3, -4, -3, -2, -1, 2, -2, -2, -1, 1, -1, -1",-1.35,-0.21
+"112",112,"DoIt4Zero","shit, lol, niggas, shit, ass, super, lol","-4, 3, -5, -4, -4, 3, 3",-1.14,0
+"113",113,"Santonyo9","blessing, good, horrible, lol, no, shit, hell, yeah, bitch, want","3, 3, -3, 3, -1, -4, -4, 1, -5, 1",-0.6,0.32
+"114",114,"blogferatu","favorite","2",2,0
+"115",115,"Aquariusnigga","drunk, like, irritated","-2, 2, -3",-1,0
+"116",116,"Mr8accw3T","big, like, good, bad, negative, stop, desperate, depressed, stop, care, dumb, kiss, ass, no, beautiful, promise, good","1, 2, 3, -3, -2, -1, -3, -2, -1, 2, -3, 2, -4, -1, 3, 1, 3",-0.18,-0.24
+"117",117,"jaascee","crazy, pretty, confusing","-2, 1, -2",-1,0
+"118",118,"eadyIofficial","chances, hate, like, stop, agreed, miss, miss, easy, damn, shame, injury, big, true, good, thank, better, cut, honest, advantage, solid, top, wow, thrilled, pay, support, love, fool, good, yes, unacceptable, superior, vile","2, -3, 2, -1, 1, -2, -2, 1, -4, -2, -2, 1, 2, 3, 2, 2, -1, 2, 2, 2, 2, 4, 5, -1, 2, 3, -2, 3, 1, -2, 2, -3",0.59,0.53
+"119",119,"ECDocVA","like","2",2,0
+"120",120,"FlockLesnar","hope, solid","2, 2",2,0.71
+"121",121,"ZaeKTA","hope, no, lame, ass, niggas, embarrassing","2, -1, -2, -4, -5, -2",-2,0
+"122",122,"Jonatha47263513","sweet, honest, kind, like, likes, rejects, happy, sorry, better, happy, beautiful","2, 2, 2, 2, 2, -1, 3, -1, 2, 3, 3",1.73,0.3
+"123",123,"Runnerson2nd","popular, perfect, worse, lost, lawsuits, joke","3, 3, -3, -3, -2, 2",0,-0.41
+"124",124,"Memles","love, jeopardy, authority, true, yes, irony, expose, misleading","3, -2, 1, 2, 1, -1, -1, -3",0,0
+"125",125,"CoachSkyJones","no, joke","-1, 2",0.5,0
+"126",126,"skatemoneyd48","rich","2",2,0
+"127",127,"wordface","yes","1",1,0
+"128",128,"ItsKeshiaHoe","itchy","-2",-2,0
+"129",129,"sosonkyrie","sweet, hoping, interested, nice","2, 2, 2, 3",2.25,0
+"130",130,"melrox757","anti, problem, bore, sorry, mandatory, guarantee, safety, strike, ensure, mandatory","-1, -2, -2, -1, -1, 1, 1, -1, 1, -1",-0.6,0
+"131",131,"BeEliteDaily","big","1",1,0
+"132",132,"Angie1979va","bored, want","-2, 1",-0.5,0
+"133",133,"Dutchysmomma","gift","2",2,0
+"134",134,"Jbugz12","confidence","2",2,0
+"135",135,"ODUWomensSoccer","amazing","4",4,0
+"136",136,"KnockoC","pleasant","3",3,0
+"137",137,"RonaldGAlfaro1","agree, shit, cool","1, -4, 1",-0.67,0
+"138",138,"MarcFinesse__","crazy, punished, lmao, death","-2, -2, 4, -2",-0.5,0
+"139",139,"Jrich1991","true","2",2,0
+"140",140,"KWilliamsWTKR","violence, victims, help","-3, -3, 2",-1.33,0
+"141",141,"Turbonium2K","awesome, lol, fun, yeah, cool, missing, cool, big, lmao, good, dumb, death, effective, free, lmao, lol, good, invite, bad, lmao, like, lol, lol, shame, lol, yeah, struck, super, weird, shit, hilarious, free, best, love, better, hell, invite, god, hate, want, fucking, fucking, lmfao, shit, pretty, cool, fool, lmao, grey, like, like, yeah, like, like","4, 3, 4, 1, 1, -2, 1, 1, 4, 3, -3, -2, 2, 1, 4, 3, 3, 1, -3, 4, 2, 3, 3, -2, 3, 1, -1, 3, -2, -4, 2, 1, 3, 3, 2, -4, 1, 1, -3, 1, -4, -4, 4, -4, 1, 1, -2, 4, -1, 2, 2, 1, 2, 2",0.87,0.41
+"142",142,"twoprettybrown","hard, love, help, help, ensure, hard","-1, 3, 2, 2, 1, -1",1,-0.82
+"143",143,"kweags","happy, better","3, 2",2.5,0.71
+"144",144,"rumdrinker71","evil","-3",-3,0
+"145",145,"__tvhirv","best, revenge, stop, shit, nuts, damn, shit, like, like, damn","3, -2, -1, -4, -3, -4, -4, 2, 2, -4",-1.5,0.32
+"146",146,"imfrommaryland","gun, broken, fun, lol, thanks, underestimate","-1, -1, 4, 3, 2, -1",1,0
+"147",147,"robyounce","awful","-3",-3,0
+"148",148,"jay_TLAR","ass, shit, shit, hero","-4, -4, -4, 2",-2.5,0
+"149",149,"lovely30_dasha","funny","4",4,0
+"150",150,"zibucketts4PF","thanks","2",2,0
+"151",151,"abilar_reccy","like, love, sweet","2, 3, 2",2.33,0
+"152",152,"Norfolk_Hub","good, better, best","3, 2, 3",2.67,1.73
+"153",153,"courtneyalch","excuse, bitch, excuse, like","-1, -5, -1, 2",-1.25,0
+"154",154,"angelandresgv","like","2",2,0
+"155",155,"EBryceLee","fan, sad, lack, faith, yes","3, -2, -2, 1, 1",0.2,0
+"156",156,"DonBrown04","good, bad","3, -3",0,0
+"157",157,"Nile_young1","ridiculous","-3",-3,0
+"158",158,"SuperEricRogers","ruined, fire, free, want, like, true","-2, -2, 1, 1, 2, 2",0.33,0
+"159",159,"amalia525","no, fucking, excited, share, happy, cry, pretty, perfect","-1, -4, 3, 1, 3, -1, 1, 3",0.62,0
+"160",160,"seeCAPrun","clearly","1",1,0
+"161",161,"luvalways_cb","highlight, good, good, irritated, wtf, lol, nervous, fucking, like, loving","2, 3, 3, -3, -4, 3, -2, -4, 2, 2",0.2,0.63
+"162",162,"aprilsunshine03","care, damage, fail, wow, clearly, hope, failure, no, save, fail, refuse, help, bothered, cut, demand, emergency, damn, shameful, pay, like, clean","2, -3, -2, 4, 1, 2, -2, -1, 2, -2, -2, 2, -2, -1, -1, -2, -4, -2, -1, 2, 2",-0.38,-0.65
+"163",163,"TheDisciple92","sad, true, bad, criminal, danger, sick, die, amazing","-2, 2, -3, -3, -2, -2, -3, 4",-1.12,-0.35
+"164",164,"KingPhizzle424","cool","1",1,0
+"165",165,"XenderhunterX","yes, nice, like, responsible, doubt, like, like, torture, want, leave, bad","1, 3, 2, 2, -1, 2, 2, -4, 1, -1, -3",0.36,-0.3
+"166",166,"TBLAIR504TV","like","2",2,0
+"167",167,"LjdnRadio","no, stopping","-1, -1",-1,0
+"168",168,"GiThaAdventurer","destroy, cares, support","-3, 2, 2",0.33,0
+"169",169,"Lonlizzy","fucking, dumb, want","-4, -3, 1",-2,0
+"170",170,"HemiManChaos","loss, hate","-3, -3",-3,0
+"171",171,"OllieTheWriter","stupid","-2",-2,0
+"172",172,"tavobabyy","fuck, goodness, bitches, love, good, fuck, ass","-4, 3, -5, 3, 3, -4, -4",-1.14,0.38
+"173",173,"DougRipleyPxP","nice, win, excited, restore, easy, big, aboard, killed, kind, cool, good","3, 4, 3, 1, 1, 1, 1, -3, 2, 1, 3",1.55,0.3
+"174",174,"TheOGNubz","sick, problems","-2, -2",-2,0
+"175",175,"_tatiiiee","like","2",2,0
+"176",176,"realTomChapman","illegal, no, like","-3, -1, 2",-0.67,0
+"177",177,"baddiebrooklin","like, fine, dick, no, like","2, 2, -4, -1, 2",0.2,0.45
+"178",178,"metaskills","love, problem, thanks, want, benefits, excited, easy, fun, good, shit","3, -2, 2, 1, 2, 3, 1, 4, 3, -4",1.3,0.32
+"179",179,"Raybaands","fucking","-4",-4,0
+"180",180,"Arianadeseree","happy","3",3,0
+"181",181,"Tim8798","like, huge, fan, tired, like, win, yeah, huge, save, fan, stop, dirty, like, win, perfect","2, 1, 3, -2, 2, 4, 1, 1, 2, 3, -1, -2, 2, 4, 3",1.53,-0.26
+"182",182,"perfectlymixed2","cut, like, fuck, shit","-1, 2, -4, -4",-1.75,0
+"183",183,"dotdotcurvv","cheated","-3",-3,0
+"184",184,"naeeACEmoney","glad, niggas, funny, lol, love, lol","3, -5, 4, 3, 3, 3",1.83,0
+"185",185,"KennyP_757","sore","-1",-1,0
+"186",186,"AlannaWoolridge","damn, hate, liar","-4, -3, -3",-3.33,0
+"187",187,"tLindseey_","damn, funny","-4, 4",0,0
+"188",188,"caseytheunknown","sexy","3",3,0
+"189",189,"dgaf_Deja","excitement, fuck","3, -4",-0.5,0
+"190",190,"VCULitos","enjoy, better, appreciate, straight, goddamn, congrats, fun, fun, ass, like, crap","2, 2, 2, 1, -3, 2, 4, 4, -4, 2, -3",0.82,0.9
+"191",191,"deneen_mia","god, god","1, 1",1,0
+"192",192,"Matt_Haralson","fuck","-4",-4,0
+"193",193,"Putrid_Moldyman","admit, lol","-1, 3",1,0
+"194",194,"SVAODU","reaching, hard, alone, reaching","1, -1, -2, 1",-0.25,-0.5
+"195",195,"cedrouson","miss, crushing, like, lol","-2, -1, 2, 3",0.5,0
+"196",196,"TyroneJacksonJr","great","3",3,0
+"197",197,"Yaleiam","good","3",3,1
+"198",198,"rebecca_spur","shit, love, silly, nasty, pretty, no, ass, cry, no, cry, amazing, bully","-4, 3, -1, -3, 1, -1, -4, -1, -1, -1, 4, -2",-0.83,0
+"199",199,"KasWhitecotton","love, like","3, 2",2.5,0
+"200",200,"SandManReU","no, love, yes, funny, bitch, ghost, fire, amazing","-1, 3, 1, 4, -5, -1, -2, 4",0.38,0
+"201",201,"_GabrielleAngel","shit","-4",-4,0
+"202",202,"Oliver78Jacob","no","-1",-1,0
+"203",203,"prodbyron","niggas, lol, shit, lol","-5, 3, -4, 3",-0.75,0
+"204",204,"flvckojoyde","falling","-1",-1,-1
+"205",205,"Person2Jaedon","want","1",1,0
+"206",206,"hunterv95","accepting, dizzy, ache, convinced, damn, betrayed, sick","1, -1, -2, 1, -4, -3, -2",-1.43,0
+"207",207,"Landondlshit","shit, niggas, worth, trouble, clean, intelligent, ambitious, shit","-4, -5, 2, -2, 2, 2, 2, -4",-0.88,0
+"208",208,"tykeion1","shit, hurt, like, bitch","-4, -2, 2, -5",-2.25,0
+"209",209,"theworstdev","pretty, strong, love, invite, loathe, exposed, hate, heroes, huge, amazing","1, 2, 3, 1, -3, -1, -3, 2, 1, 4",0.7,0.32
+"210",210,"delcosby","good","3",3,1
+"211",211,"BenGilliam","haha, suicide, death","3, -2, -2",-0.33,0
+"212",212,"Adam94444825","stop, stop, fine, shit","-1, -1, 2, -4",-1,0.5
+"213",213,"Adam_Horton83","better, cutting, worth, darkness, pretty, missed, opportunity, like, boring","2, -1, 2, -1, 1, -2, 2, 2, -3",0.22,0.67
+"214",214,"PrinceAkeem757","kill, ass, wish, like","-3, -4, 1, 2",-1,0
+"215",215,"MattGraham757","excited","3",3,0
+"216",216,"P_Hutson2022","big","1",1,0
+"217",217,"KingNola1","fight, evil, fun","-1, -3, 4",0,0
+"218",218,"NottzRaw","lol","3",3,0
+"219",219,"drvn_mel","fire","-2",-2,0
+"220",220,"Norfolkrules","big, demand, drop, empty, nuts, great","1, -1, -1, -1, -3, 3",-0.33,-0.41
+"221",221,"SamWill88785933","support, support","2, 2",2,0
+"222",222,"DeontaNashawn","ass","-4",-4,0
+"223",223,"Dleszczynski34","cool, trouble","1, -2",-0.5,0
+"224",224,"tayloorr16","weird","-2",-2,0
+"225",225,"PeterRBuryk","great","3",3,0
+"226",226,"coachB_bwsl","stop, gift","-1, 2",0.5,0
+"227",227,"757Bottom","want","1",1,0
+"228",228,"ChesapeakeHub","failures, success","-2, 2",0,0.71
+"229",229,"pixigirlfriend","hard","-1",-1,-1
+"230",230,"ODUBAC1989","wonderful, lovely","4, 3",3.5,0
+"231",231,"chandlercordeto","welcome, true","2, 2",2,0
+"232",232,"TcCeferino","pretty, beautiful, fine, fun, smile","1, 3, 2, 4, 2",2.4,0.45
+"233",233,"Taylor_DwayneJr","like, important","2, 2",2,0
+"234",234,"1Careless_Soul","like, fucking, broken, wish, broken, tears, lol","2, -4, -1, 1, -1, -2, 3",-0.29,0
+"235",235,"Teslarocks03XP","pay","-1",-1,0
+"236",236,"n0_daze_off","like, great, congrats, lol","2, 3, 2, 3",2.5,0
+"237",237,"FeelinDa_BREez","promise, natural","1, 1",1,0
+"238",238,"skateboard__D","better, moody, angry","2, -1, -3",-0.67,0.58
+"239",239,"AmericasHypeman","death, death, joy, happiness, suffering, suicidal, help, please, hope, better, effective","-2, -2, 3, 3, -2, -2, 2, 1, 2, 2, 2",0.64,0.3
+"240",240,"AlexisPearson02","god, dead, ass, like, fucking, lol","1, -3, -4, 2, -4, 3",-0.83,0
+"241",241,"Licia_Rajai","crazy, wtf, want, shit","-2, -4, 1, -4",-2.25,0
+"242",242,"vajeepgirl79","cut, better","-1, 2",0.5,0.71
+"243",243,"nate_va_4","feeling, good, like, fake, nice, good","1, 3, 2, -3, 3, 3",1.5,0.82
+"244",244,"sdearth","excellent, fine, amazing","3, 2, 4",3,1.15
+"245",245,"sabartonwrites","best, share, yes, lighthearted, joke","3, 1, 1, 1, 2",1.6,0.45
+"246",246,"LaurenMazzurco","yes, safe","1, 1",1,0
+"247",247,"napwhore","proud","2",2,0
+"248",248,"justin276","shitty, bad, good, jesus","-3, -3, 3, 1",-0.5,0
+"249",249,"kingbeeb_","good, damn, bitches, astounding","3, -4, -5, 3",-0.75,0.5
+"250",250,"MMariano757","thanks, remarkable","2, 2",2,0
+"251",251,"riogarcia713","love","3",3,0
+"252",252,"ODUFbATC","curious, bad, good","1, -3, 3",0.33,0
+"253",253,"ChesapeakeRoads","emergency","-2",-2,0
+"254",254,"OldBuzzard12","worst, excuse, dumb","-3, -1, -3",-2.33,-0.58
+"255",255,"CalebBeastGamin","luck","3",3,0
+"256",256,"Smith_SCA","enjoy, great, fun, want, miss, hope, miss","2, 3, 4, 1, -2, 2, -2",1.14,0.38
+"257",257,"FollowThe_Leada","drop, bad, shit, pretty, shit, funny, shit, like, creative, shit, like, shit, top, yeah, exclusive","-1, -3, -4, 1, -4, 4, -4, 2, 2, -4, 2, -4, 2, 1, 2",-0.53,-0.52
+"258",258,"krisco0717","super, good, love, active","3, 3, 3, 1",2.5,0.5
+"259",259,"SneakinNGeekin","shit, like, smile","-4, 2, 2",0,0
+"260",260,"desssarii","lmfao, embarrassing","4, -2",1,0
+"261",261,"MRossero","love","3",3,0
+"262",262,"Samuelwarrenjr","horrible","-3",-3,0
+"263",263,"catastrophicbee","dream, like, better, lmao, lmfao, no, bitch, niggas, yes, lmfao, love, insane, lmfao, best, choked","1, 2, 2, 4, 4, -1, -5, -5, 1, 4, 3, -2, 4, 3, -2",0.87,0.52
+"264",264,"ScratchingHimUp","help, love, good, love, ass","2, 3, 3, 3, -4",1.4,0.45
+"265",265,"BaldHeadQueen","stop, stop","-1, -1",-1,0
+"266",266,"SnarkyOfSEVA","free","1",1,0
+"267",267,"KristyStewardWx","safety, best","1, 3",2,0.71
+"268",268,"surflant","aboard, combat, support","1, -1, 2",0.67,0
+"269",269,"T_REV757","discord, best, dick, like, good, killing, shit, want","-2, 3, -4, 2, 3, -3, -4, 1",-0.5,0.71
+"270",270,"NailsByRegina","better","2",2,1
+"271",271,"ThatGuyMcLeod","god, war","1, -2",-0.5,0
+"272",272,"tonyplaygames83","lol","3",3,0
+"273",273,"peirson_jack","no, rage","-1, -2",-1.5,0
+"274",274,"baum_w","ignorant, mess, wrong, lucky, ignorance","-2, -2, -2, 3, -2",-1,0.45
+"275",275,"nikdeshae","no, best","-1, 3",1,0.71
+"276",276,"ChrisCousin24","wish","1",1,0
+"277",277,"ReeseBecker","glad, good, amazing","3, 3, 4",3.33,0.58
+"278",278,"_paidnpretty","bitch, want, shit, bad, good, ass, hate","-5, 1, -4, -3, 3, -4, -3",-2.14,0
+"279",279,"derricanikita","shit","-4",-4,0
+"280",280,"DEMIlGAWD","amazing, wow","4, 4",4,0
+"281",281,"sugardrift","strongest, love, fucking, shoot, like, free","2, 3, -4, -1, 2, 1",0.5,0.41
+"282",282,"keenensparrow","jealous, yeah, yes, damn, yeah, like, niggas","-2, 1, 1, -4, 1, 2, -5",-0.86,0
+"283",283,"PIT_Basketball","classy, impressed","3, 3",3,0
+"284",284,"5moke5creen","no","-1",-1,0
+"285",285,"VaArcAngel80","no, important, like, fight, dream, fire, super, hope, lost","-1, 2, 2, -1, 1, -2, 3, 2, -3",0.33,0
+"286",286,"Priority_Toyota","dreams","1",1,0
+"287",287,"Brandonsbuddz","happy, wish, happy, hope, wonderful","3, 1, 3, 2, 4",2.6,0
+"288",288,"QweezyReed","like, like","2, 2",2,0
+"289",289,"wdeacon","no, badass, love","-1, -3, 3",-0.33,0
+"290",290,"MariaInVa","yes, true, inspire, smile, love","1, 2, 2, 2, 3",2,0
+"291",291,"cruelabattoirs","darkest","-2",-2,0
+"292",292,"757teamz","great","3",3,0
+"293",293,"BobMatthews965","best, strong","3, 2",2.5,1.41
+"294",294,"slnash4u","no, hard, please, likes, crushed, wrong, missed, missed, avoid, jeopardy, free, moans","-1, -1, 1, 2, -2, -2, -2, -2, -1, -2, 1, -2",-0.92,-0.29
+"295",295,"_AustinMullins","share, free, stable","1, 1, 2",1.33,0
+"296",296,"itsmeiamgary","good, curious, hard","3, 1, -1",1,0
+"297",297,"SamStromb757","accept, great, worse, better, accepted, hell","1, 3, -3, 2, 1, -4",0,0
+"298",298,"thejacksondavey","happy","3",3,0
+"299",299,"BuckBrazy","rich","2",2,0
+"300",300,"JacqGoehner","joy, true, true","3, 2, 2",2.33,0
+"301",301,"DinVb63","happy, lol","3, 3",3,0
+"302",302,"_zirrrr","swear, like, niggas","-2, 2, -5",-1.67,0
+"303",303,"RobbieDuncanOL","best, lol","3, 3",3,0.71
+"304",304,"MRSAXXMANN","enjoy, agree, glad, god, laugh, haha","2, 1, 3, 1, 1, 3",1.83,0.41
+"305",305,"absweatsh1rt","growing, undeserving, alas, god, silly, like, block","1, -2, -1, 1, -1, 2, -1",-0.14,0.38
+"306",306,"TheWakerBaker","lol, like, lol, freedom, want, straight, better","3, 2, 3, 2, 1, 1, 2",2,0.76
+"307",307,"JhazNumbaNine","funny, blocked, hurt, bad, cry, stop","4, -1, -2, -3, -1, -1",-0.67,-0.41
+"308",308,"RAIN_onyou","celebrate","3",3,0
+"309",309,"stainlessfn","free, free, discord","1, 1, -2",0,0
+"310",310,"_chenell_","like","2",2,0
+"311",311,"Emancaz","shitty","-3",-3,0
+"312",312,"satmoore","missed, no, jesus, shared, like, like","-2, -1, 1, 1, 2, 2",0.5,0
+"313",313,"Its_Taydeon","happiness, lol","3, 3",3,0
+"314",314,"camdeloatch6","beautiful, best, lmao","3, 3, 4",3.33,0.58
+"315",315,"GMWATidewater","justice, pleasant","2, 3",2.5,0
+"316",316,"JReeceTheCup","nasty","-3",-3,0
+"317",317,"Anniedidit_","wtf, big, ass, niggas, no, dizzy, bastard, warm","-4, 1, -4, -5, -1, -1, -5, 1",-2.25,0
+"318",318,"euronerd2","good, luck, winner, damn, love, good, forget, shoot, forget","3, 3, 4, -4, 3, 3, -1, -1, -1",1,0.67
+"319",319,"j49eraskew","want","1",1,0
+"320",320,"kittb688","crying","-2",-2,0
+"321",321,"plantpapi757","no, bitch","-1, -5",-3,0
+"322",322,"AndrewStroud92","great, amazing","3, 4",3.5,0
+"323",323,"lilkickxxs","wish, best, lmao","1, 3, 4",2.67,0.58
+"324",324,"JJ_Bloom","support, free","2, 1",1.5,0
+"325",325,"GRIFFINANTONIEO","hell","-4",-4,0
+"326",326,"Rich1398359295","cancer, great, beautiful, rich, no","-1, 3, 3, 2, -1",1.2,0
+"327",327,"RChrles","falling, falling, alive","-1, -1, 1",-0.33,-1.15
+"328",328,"Sharkcity_Ave","happy","3",3,0
+"329",329,"MadGabs9","damn, want","-4, 1",-1.5,0
+"330",330,"CLSMOOTH74","miss","-2",-2,0
+"331",331,"AiMelo15_","miss","-2",-2,0
+"332",332,"ApostleNichole","hacked","-1",-1,0
+"333",333,"ep1k_b_rad","failing","-2",-2,-1
+"334",334,"GoddessK8ie","help, help","2, 2",2,0
+"335",335,"4PinkwallsAC","agree","1",1,0
+"336",336,"bulletprfsoul","please, damn, dragged, alone","1, -4, -1, -2",-1.5,0
+"337",337,"SSGClo","save, win, wishes, abilities, bad, accomplish, like","2, 4, 1, 2, -3, 2, 2",1.43,0
+"338",338,"GloryFadesAway","violent","-3",-3,0
+"339",339,"mav_st","pretty, damn, dream","1, -4, 1",-0.67,0
+"340",340,"biigkg","damn, lol","-4, 3",-0.5,0
+"341",341,"itsavstin","joy","3",3,0
+"342",342,"HorFarms","underestimate, mature, damage, damage","-1, 2, -3, -3",-1.25,0
+"343",343,"notbangalore","good, great","3, 3",3,0.71
+"344",344,"poetwordplay","shit, ass","-4, -4",-4,0
+"345",345,"ItsNot_Erin","fun, hurts","4, -2",1,0
+"346",346,"ItzMcDonaldFor3","thanks, yes, jokes, lmao, lol, love, shit, jesus, lmao, lol, lmao, lmao","2, 1, 2, 4, 3, 3, -4, 1, 4, 3, 4, 4",2.25,0
+"347",347,"bvmoore1","beautiful","3",3,0
+"348",348,"__Law4__","love","3",3,0
+"349",349,"DamnitKevin","please","1",1,0
+"350",350,"AWashington23","shit, funny, hell","-4, 4, -4",-1.33,0
+"351",351,"imdanielmendoza","chance, please, no, like, suck, fuck","2, 1, -1, 2, -3, -4",-0.5,0
+"352",352,"Quillster_","thanks, clearly, happy","2, 1, 3",2,0
+"353",353,"Therealmanos","murder, brilliant, good","-2, 4, 3",1.67,0.58
+"354",354,"ButlerJazmyn","best","3",3,1
+"355",355,"Being_Undone","delay, win, no","-1, 4, -1",0.67,0
+"356",356,"ProdByCHilfiger","love","3",3,0
+"357",357,"EmerPhoenix","chance","2",2,0
+"358",358,"fappertapper69","suicide","-2",-2,0
+"359",359,"swasey_patrick","god","1",1,0
+"360",360,"callmeMR_TIPPS","yeah, want, like, niggas, crazy","1, 1, 2, -5, -2",-0.6,0
+"361",361,"IJUSTWANTMYBAND","interesting, slam","2, -2",0,0
+"362",362,"yahairagallard","love","3",3,0
+"363",363,"SuperBunnyBun","hero, love, enjoy, luck, cute","2, 3, 2, 3, 2",2.4,0.45
+"364",364,"DJCanRock","sore, fatigue, sore, no","-1, -2, -1, -1",-1.25,0
+"365",365,"WaynezW0rld","no, mad, bitches","-1, -3, -5",-3,0
+"366",366,"MilesSWard2","wish, love, like, god","1, 3, 2, 1",1.75,0
+"367",367,"cek12","hope","2",2,0
+"368",368,"evmssurgery","sorry, loss, pain, losing","-1, -3, -2, -3",-2.25,-0.5
+"369",369,"thick_taylor","alone","-2",-2,0
+"370",370,"bam2xl","leave, important, pissed, powerful, growing","-1, 2, -4, 2, 1",0,0.45
+"371",371,"JodiMFlynn","top, trusted, bad","2, 2, -3",0.33,-0.58
+"372",372,"tk_poontycoon","ha, fool","2, -2",0,0
+"373",373,"_cmholmes","lovely, harsh, reward, great, want, thank, goodness, haha, thank, appreciate, thank, swear, confidence","3, -2, 2, 3, 1, 2, 3, 3, 2, 2, 2, -2, 2",1.62,0.28
+"374",374,"KareemEmotion","adore, sweet, sweet","3, 2, 2",2.33,0
+"375",375,"yoRichaard","no, hell, bold","-1, -4, 2",-1,0
+"376",376,"RFO519","disgusting, stop, stop, worse","-3, -1, -1, -3",-2,-0.5
+"377",377,"JuneFaramore","promise","1",1,0
+"378",378,"asia_c73","bright, no, like","1, -1, 2",0.67,0
+"379",379,"_knard","hilarious","2",2,0
+"380",380,"LoLi5s","damn, pressure, scared, join, no","-4, -1, -2, 1, -1",-1.4,0
+"381",381,"JonDowding","help, successful","2, 3",2.5,0.71
+"382",382,"curlyy_kelsss","killing","-3",-3,0
+"383",383,"sipock97","delay","-1",-1,0
+"384",384,"SimPLeNEeks","lol","3",3,0
+"385",385,"DaDad___","pretty, hell, favorite, lost, spark, crazy","1, -4, 2, -3, 1, -2",-0.83,0
+"386",386,"IamPaaariss","ghost, god, blessing","-1, 1, 3",1,0
+"387",387,"SamSeal24","hell, nice","-4, 3",-0.5,0
+"388",388,"wittleunicorn","thankful, heartbreaking, love, inspiration, want, wtf, love, strong","2, -3, 3, 2, 1, -4, 3, 2",0.75,0.35
+"389",389,"moonlitlan","yeah","1",1,0
+"390",390,"1_chocolatedrop","block, crying","-1, -2",-1.5,0
+"391",391,"JoeyHollen_","drunk","-2",-2,0
+"392",392,"DaManWit2Xs","join","1",1,0
+"393",393,"ZUZU3RD","thank","2",2,0
+"394",394,"sharkyhat","missed","-2",-2,0
+"395",395,"gdollas757","fucking","-4",-4,0
+"396",396,"ccmcleod","great","3",3,0
+"397",397,"krystal_muzik","thanks","2",2,0
+"398",398,"ODU_weather","chance","2",2,0
+"399",399,"BigGucciLambo","like, want, weak, hating, hard, like, lmao, sad, attacks, no, damage, good, big, hope","2, 1, -2, -3, -1, 2, 4, -2, -1, -1, -3, 3, 1, 2",0.14,-0.27
+"400",400,"TiaraSumner","protect","1",1,0
+"401",401,"sahinson","bad","-3",-3,-1
+"402",402,"Party_W01f","stop, lol","-1, 3",1,0
+"403",403,"pintstewart","happy, ass, fine, dead, dead","3, -4, 2, -3, -3",-1,0.45
+"404",404,"courtneyfeetham","pain, no, lovely, protected, fuming, severe, pain, refused, problem, bad, damage","-2, -1, 3, 1, -2, -2, -2, -2, -2, -3, -3",-1.36,-0.9
+"405",405,"Doug_The_Slug_","like, lame, shit","2, -2, -4",-1.33,0
+"406",406,"langerz9","love, bloody, vile, true, worse","3, -3, -3, 2, -3",-0.8,-0.45
+"407",407,"Z104fans","win","4",4,0
+"408",408,"Avocargo1","like, share, help","2, 1, 2",1.67,0
+"409",409,"OHE_McGowan","great, enjoy, great","3, 2, 3",2.67,0.58
+"410",410,"_Mister_Rogers","success","2",2,1
+"411",411,"anyadior1","allow, crazy","1, -2",-0.5,0
+"412",412,"RLC_3","appreciated, thank","2, 2",2,0
+"413",413,"Weavofloxacin","outstanding","5",5,0
+"414",414,"CogansGhent","recommended, positive, solid, please, please","2, 2, 2, 1, 1",1.6,0.89
+"415",415,"vpaige","hope","2",2,0
+"416",416,"cuntent","matter, legal, love, want, cut, disgusted, manipulated, ass, weird","1, 1, 3, 1, -1, -3, -1, -4, -2",-0.56,0
+"417",417,"MORECompanyEc","wow","4",4,0
+"418",418,"BlaineStewart","excellent","3",3,1
+"419",419,"RazorFoxDV","glad","3",3,0
+"420",420,"shalomnissi3","sad, broke, bitch","-2, -1, -5",-2.67,0
+"421",421,"SherylDerby","like, sweet","2, 2",2,0
+"422",422,"JCarr757","won, competitive, like, fired, guarantee, focused","3, 2, 2, -2, 1, 2",1.33,0
+"423",423,"Jbeezy__","clearly","1",1,0
+"424",424,"dremadeoraich","like, like, yeah","2, 2, 1",1.67,0
+"425",425,"JasonJoseAuthor","deception, cried, no","-3, -2, -1",-2,0
+"426",426,"law4cheap","hell, fuck, no, good","-4, -4, -1, 3",-1.5,0.5
+"427",427,"Les1004","yes, confusing, stupid","1, -2, -2",-1,0
+"428",428,"AzzyKoyote","hope, better","2, 2",2,0.71
+"429",429,"andu77838827","ban, forced, hope, tears","-2, -1, 2, -2",-0.75,0
+"430",430,"SimonRoyal","alone, evil, bother","-2, -3, -2",-2.33,-0.58
+"431",431,"Hanks_Norfolk","enjoy, committed, excellent","2, 1, 3",2,1.15
+"432",432,"TheREALBigQUES","fitness","1",1,0
+"433",433,"raf_wayne","bitch, clean","-5, 2",-1.5,0
+"434",434,"Smparkerstone","great, fresh, great, thanks, worse","3, 1, 3, 2, -3",1.2,-0.45
+"435",435,"oneilarrington","lol","3",3,0
+"436",436,"Benjanime","good","3",3,1
+"437",437,"Sim_ply_e","worried, leave, want","-3, -1, 1",-1,0
+"438",438,"Babii_Jokah","want","1",1,0
+"439",439,"johngalea","great","3",3,0
+"440",440,"matthew_omara65","like, lol","2, 3",2.5,0
+"441",441,"LibertyOve","help, please, help, no, suffer","2, 1, 2, -1, -2",0.4,0
+"442",442,"KevinnJoness","nice","3",3,0
+"443",443,"Saleen_Martin","abusive, jealous, loved, excuse","-3, -2, 3, -1",-0.75,0
+"444",444,"HogFarmerJoe","good, cool","3, 1",2,0.71
+"445",445,"ODUFootballFan","top, cool","2, 1",1.5,0
+"446",446,"autasia_23","thank, god","2, 1",1.5,0
+"447",447,"lawdgezus","lucky","3",3,1
+"448",448,"PlayyBoitae","mad, want, please, fuck","-3, 1, 1, -4",-1.25,0
+"449",449,"bowes","top","2",2,0
+"450",450,"ThatdollM","bitch, miss, kill, bitch, like, cancer","-5, -2, -3, -5, 2, -1",-2.33,0
+"451",451,"_ShadG","wrong, wrong, ass, like","-2, -2, -4, 2",-1.5,0
+"452",452,"therealljuneb","no, pain","-1, -2",-1.5,-0.71
+"453",453,"jaserhunter","like, matter, missing, fan, pretty, awesome, fun, like, hopefully, enjoy, appreciated, favorite, want, favorites, super, hard, shared","2, 1, -2, 3, 1, 4, 4, 2, 2, 2, 2, 2, 1, 2, 3, -1, 1",1.71,0
+"454",454,"_Arielly_21","accident, good, problem","-2, 3, -2",-0.33,0.58
+"455",455,"SeanDKennedy","like","2",2,0
+"456",456,"WhoToldAFunny","awesome","4",4,0
+"457",457,"PlayDat_FoxTrap","want, want, shit, shit, hard, stop","1, 1, -4, -4, -1, -1",-1.33,-0.41
+"458",458,"Peach9977","bitch","-5",-5,0
+"459",459,"HickoryHighSCA","happy","3",3,0
+"460",460,"Tayhunny1","hate","-3",-3,0
+"461",461,"Dee_Excelsior","broken, lol","-1, 3",1,0
+"462",462,"itslashawn1","weird","-2",-2,0
+"463",463,"OlJunie","big, dick, like, dick, please, block, upset, super, like","1, -4, 2, -4, 1, -1, -2, 3, 2",-0.22,0
+"464",464,"paulsplinux","confidence","2",2,0
+"465",465,"TweetsWithMyCat","alone, sorry, love, care, promotes, myth, falling, strange, wish","-2, -1, 3, 2, 1, -1, -1, -1, 1",0.11,-0.33
+"466",466,"xxdevotion","top, wrong","2, -2",0,0
+"467",467,"Tony_London","missing","-2",-2,0
+"468",468,"tooncesthecat8","scumbag","-4",-4,0
+"469",469,"KimberlyBedsole","want, like, help","1, 2, 2",1.67,0
+"470",470,"manidianne","share","1",1,0
+"471",471,"salxem","tired, like, cares","-2, 2, 2",0.67,-0.58
+"472",472,"the_carmelody","fun","4",4,0
+"473",473,"Catelynnn__","dirty, liked, lmao","-2, 2, 4",1.33,0
+"474",474,"Aloy_durr","awesome, hugs, awesome","4, 2, 4",3.33,0
+"475",475,"AdamBrownEDU","wonderful, thank","4, 2",3,0
+"476",476,"MGMUSMCRet","fire, scream, top, like, idiot, wtf, idiot, killed, cancel, no, mandatory, harsh, love, love, gun, prick, better, threats, love, comforts, enjoy, huge, shock, bad, want, alone, fear, legal, ass, bitch, easy, favorite, treasure, wasted, shamed, allow, wtf, easy, jesus, weak, care, popular, fame, like, jesus","-2, -2, 2, 2, -3, -4, -3, -3, -1, -1, -1, -2, 3, 3, -1, -5, 2, -2, 3, 2, 2, 1, -2, -3, 1, -2, -2, 1, -4, -5, 1, 2, 2, -2, -2, 1, -4, 1, 1, -2, 2, 3, 1, 2, 1",-0.42,0
+"477",477,"Stanimal_214","pressure","-1",-1,0
+"478",478,"CoastalVARE","great, creative","3, 2",2.5,0
+"479",479,"rickycassh","niggas, shit, stop, damn, like, dumbass, dickhead, nice, smart, like, nice, convinced, horrible, ass, joke, hell, cut, shit, shit, resigning, ass, dumbass, shit, lol, pretty, cool, lmao, hopefully, shit","-5, -4, -1, -4, 2, -3, -4, 3, 1, 2, 3, 1, -3, -4, 2, -4, -1, -4, -4, -1, -4, -3, -4, 3, 1, 1, 4, 2, -4",-1.1,0
+"480",480,"ts_QweenDee","like","2",2,0
+"481",481,"WhiteClawBob","kill","-3",-3,0
+"482",482,"_Mucho","nice, good, bad","3, 3, -3",1,0
+"483",483,"bennsintheroad","like, gift, like, fight, jeopardy, denied","2, 2, 2, -1, -2, -2",0.17,0
+"484",484,"LauraCary1","proud","2",2,0
+"485",485,"lacindyyy_","favorite, sad, like, like, yeah","2, -2, 2, 2, 1",1,0
+"486",486,"MrComical_L2daJ","struggles, fear, kind, avoid, hard, pay, debt, negative, disputed","-2, -2, 2, -1, -1, -1, -2, -2, -2",-1.22,-0.67
+"487",487,"dorklandceo","die, god, like, obsessed, like","-3, 1, 2, 2, 2",0.8,0
+"488",488,"anitrarhonta08","like, hurt","2, -2",0,0
+"489",489,"rachaeltownley","like","2",2,0
+"490",490,"PThrifting","good, share, loving","3, 1, 2",2,0.58
+"491",491,"WayfastW","love","3",3,0
+"492",492,"Drpolo1983","rash, steal, joy, disturb, peace, perfect, hope, cool, congrats","-2, -2, 3, -2, 2, 3, 2, 1, 2",0.78,0
+"493",493,"Tomw461","want, problem, doubt","1, -2, -1",-0.67,0
+"494",494,"geoffwarder","thank, no","2, -1",0.5,0
+"495",495,"J_Sliv","badly, challenge, want, easy","-3, -1, 1, 1",-0.5,-0.5
+"496",496,"ODU","join, welcome","1, 2",1.5,0
+"497",497,"grassfield_hs","proud","2",2,0
+"498",498,"bryanjamal777","pretending","-1",-1,0
+"499",499,"HeyImGreg_","kill, free, lol, nice, nice","-3, 1, 3, 3, 3",1.4,0
+"500",500,"clarencelee_","appreciate","2",2,0
+"501",501,"heychubbs","good, losing","3, -3",0,0.71
+"502",502,"BWW_Norfolk","swift, love, perfect","2, 3, 3",2.67,0
+"503",503,"JVO_6ixGod","wrong","-2",-2,0
+"504",504,"linky58","confused, wrong","-2, -2",-2,0
+"505",505,"Shawn0071986","awesome, fuck, win, bad","4, -4, 4, -3",0.25,-0.5
+"506",506,"Q_yoU_Ayee","jokes, sympathy, stupid, shit, like, like, lmao, like, hated","2, 2, -2, -4, 2, 2, 4, 2, -3",0.56,0
+"507",507,"antjames28","complain, better, praying","-2, 2, 1",0.33,0.58
+"508",508,"andrewian84","impressive, interested, good, alive, like","3, 2, 3, 1, 2",2.2,0.45
+"509",509,"_DatniggaDrew","niggas","-5",-5,0
+"510",510,"sovaRaven","agree, no, easy, like","1, -1, 1, 2",0.75,0
+"511",511,"PamWrig15287883","happy","3",3,0
+"512",512,"ShnyHoney","hate, hopefully, good","-3, 2, 3",0.67,0.58
+"513",513,"BoobySmoove3","lol, great","3, 3",3,0
+"514",514,"757_baby","god, bitch, hate, childish, negative, positive, shit","1, -5, -3, -2, -2, 2, -4",-1.86,0
+"515",515,"PaddedFoxy","jerk, kind","-3, 2",-0.5,0
+"516",516,"GOATED__CJ","greatest, appreciate","3, 2",2.5,0.71
+"517",517,"mtofAmanda","hope","2",2,0
+"518",518,"jim9097","collapsing, bullshit","-2, -4",-3,0
+"519",519,"subschneider","better, trap, combat, easy, misunderstand","2, -1, -1, 1, -2",-0.2,0.45
+"520",520,"the2techboys","dumb, care, bad, best, love, safe","-3, 2, -3, 3, 3, 1",0.5,0
+"521",521,"beckyeverest","powerful","2",2,0
+"522",522,"KirkulezeShep53","better, better, terrible, no, yes","2, 2, -3, -1, 1",0.2,0.45
+"523",523,"Wendlington","happy, support, worthy","3, 2, 2",2.33,0
+"524",524,"venturi01","like, suspect","2, -1",0.5,0
+"525",525,"JazzyChar2","excellent","3",3,1
+"526",526,"x_mondoo","allergic, nasty, shit, no, like, hell, niggas, weird, ass, leave, no, wrong, stop, big, nasty, shit, shit, weird, shit, lame, ass, nasty, fuck, wrong, niggas, fuck","-2, -3, -4, -1, 2, -4, -5, -2, -4, -1, -1, -2, -1, 1, -3, -4, -4, -2, -4, -2, -4, -3, -4, -2, -5, -4",-2.62,0
+"527",527,"Myshaawn","best","3",3,1
+"528",528,"bandhunnavell","crazy, funny, like, ugly, crazy","-2, 4, 2, -3, -2",-0.2,0
+"529",529,"drxzzy__","fuck, shit","-4, -4",-4,0
+"530",530,"PdiddySnacks","hero, want, no","2, 1, -1",0.67,0
+"531",531,"DJ_Mike_Larry","bullshit, shit, big, dumb, ass, fake, shit, want","-4, -4, 1, -3, -4, -3, -4, 1",-2.5,0
+"532",532,"walter_notwhite","hope, sorry","2, -1",0.5,0
+"533",533,"EianBJones","diamond","1",1,0
+"534",534,"luvnikeia","cute","2",2,0
+"535",535,"nanoBEERS","bullshit, fresh","-4, 1",-1.5,0
+"536",536,"DrPatDoyle","proud, hopefully, thanks","2, 2, 2",2,0
+"537",537,"dixon2teach","congrats","2",2,0
+"538",538,"maliemoe432","lost, trust, wicked","-3, 1, -2",-1.33,0.58
+"539",539,"General1000Star","limited","-1",-1,0
+"540",540,"cypressbill1980","fight, strength, proud, fraudulent","-1, 2, 2, -4",-0.25,0.5
+"541",541,"d_spitler","dear, please, please, please, fair, thank","2, 1, 1, 1, 2, 2",1.5,0
+"542",542,"MrsJonica","threatening, justice, stronger, immune","-2, 2, 2, 1",0.75,0.5
+"543",543,"thebeatva","chance, chance, win, chances, big, happy, winning, competitive, award, award, award","2, 2, 4, 2, 1, 3, 4, 2, 3, 3, 3",2.64,0
+"544",544,"PopcastPod","jeopardy, successful, no, dead","-2, 3, -1, -3",-0.75,0.5
+"545",545,"MrBs_radtweets","emptiness","-1",-1,0
+"546",546,"TAAEducation","please, join, pray, pray, jesus, please, pray, thank","1, 1, 1, 1, 1, 1, 1, 2",1.12,0
+"547",547,"CANorfolk","support","2",2,0
+"548",548,"UnionMission","wonderful, great, appreciate, support","4, 3, 2, 2",2.75,0
+"549",549,"MillsV2","hell, hell, like, upset, stupid","-4, -4, 2, -2, -2",-2,0
+"550",550,"TonyMunky","fair, leave, shit, clean","2, -1, -4, 2",-0.25,0
+"551",551,"PortsVAPatch","fair","2",2,0
+"552",552,"ceblack__","shit","-4",-4,0
+"553",553,"jillsymone_","fine","2",2,1
+"554",554,"dolly_birds85","waste, annoying, happy","-1, -2, 3",0,0
+"555",555,"tmj_vap_util","want","1",1,0
+"556",556,"Bassfield_EF5","like, best","2, 3",2.5,0.71
+"557",557,"SandySchneirla","super, frustration","3, -2",0.5,0
+"558",558,"damwop2","beautiful, beautiful, no, matter, sadly, die, kills, wish, good, amazing, adventure","3, 3, -1, 1, -2, -3, -3, 1, 3, 4, 2",0.73,0.3
+"559",559,"ASaltyRat","feeling, no, care, love, great, good, luck, happy, die, stop, love, killing, want","1, -1, 2, 3, 3, 3, 3, 3, -3, -1, 3, -3, 1",1.08,0.28
+"560",560,"_RachaelTV","hard","-1",-1,-1
+"561",561,"GavinCaney","embarrassed","-2",-2,0
+"562",562,"Caravantastic2","nice","3",3,0
+"563",563,"dingerso1952","no","-1",-1,0
+"564",564,"Shereediculous","lmao, no, no, no, drop","4, -1, -1, -1, -1",0,-0.45
+"565",565,"OHE_MurphyInman","like, welcome, excited, join","2, 2, 3, 1",2,0
+"566",566,"leolinders","agree, beautiful, bloody, thank, interesting, like, love, clear, resolve","1, 3, -3, 2, 2, 2, 3, 1, 2",1.44,0
+"567",567,"DanielADSalmon","fan, happy, challenge","3, 3, -1",1.67,-0.58
+"568",568,"_ElijahKnapp","damn, shit, hell","-4, -4, -4",-4,0
+"569",569,"_AyeeeNasty4rea","pissing","-3",-3,0
+"570",570,"Magic8Ball_II","like, bad, ease, guilt","2, -3, 2, -3",-0.5,-0.5
+"571",571,"gclions","no, mistake, perfectly, better, awful, good, great, doubts, significant, perfectly, crazy, stops, interested","-1, -2, 3, 2, -3, 3, 3, -1, 1, 3, -2, -1, 2",0.54,0.55
+"572",572,"eizyaj","cute, want, cute","2, 1, 2",1.67,0
+"573",573,"SidTheHaze","damn","-4",-4,0
+"574",574,"pantchez","like, love, like, want, true","2, 3, 2, 1, 2",2,0
+"575",575,"Taipolar_twitch","piss, fan","-4, 3",-0.5,0
+"576",576,"mazbrakin","hard, axe, murderer","-1, -1, -2",-1.33,-0.58
+"577",577,"J3FE_","niggas, free","-5, 1",-2,0
+"578",578,"midrangetay","waste","-1",-1,0
+"579",579,"Cobholmlad","no","-1",-1,0
+"580",580,"johncran11","better, welcome, cool, no, best, upset","2, 2, 1, -1, 3, -2",0.83,0.82
+"581",581,"its_loulou","beaten, won, true, fan, doubt, fan, like, no, promise, entitled, boring, supported, good, love, amazing, beautiful, lucky","-2, 3, 2, 3, -1, 3, 2, -1, 1, 1, -3, 2, 3, 3, 4, 3, 3",1.53,0.49
+"582",582,"PhoenixMoonShdw","ban","-2",-2,0
+"583",583,"saeed_asaid","bully, good","-2, 3",0.5,0.71
+"584",584,"VBourne_VP","fun","4",4,0
+"585",585,"tmj_vap_itpm","interested, great, fit","2, 3, 1",2,0
+"586",586,"TheGardnerChris","praises, praises","3, 3",3,0
+"587",587,"eileenpglass","love","3",3,0
+"588",588,"livinlifehi","no","-1",-1,0
+"589",589,"AICursaru","positive, opportunities, reach, happy","2, 2, 1, 3",2,1
+"590",590,"Linda_U_W_A","gift, fabulous, gift, gift, lovely, gift, fabulous, gift, fantastic, gift, fantastic, fantastic, gift, fabulous, gift","2, 4, 2, 2, 3, 2, 4, 2, 4, 2, 4, 4, 2, 4, 2",2.87,0
+"591",591,"saragregory","happy","3",3,0
+"592",592,"DBSchenkerUSA","successful, increased, boosted, natural","3, 1, 1, 1",1.5,1
+"593",593,"JanisDauer","please, perfect","1, 3",2,0
+"594",594,"Russell22998582","chance, struggle, wrong, propaganda","2, -2, -2, -2",-1,0
+"595",595,"mrlivefromnflk","bored, creative","-2, 2",0,0
+"596",596,"BlasianHeatRock","proud","2",2,0
+"597",597,"The_Mockers","lost, no, death, horrible","-3, -1, -2, -3",-2.25,0
+"598",598,"TheCapalyon","happy","3",3,0
+"599",599,"Lynxydolls","glad, welcome","3, 2",2.5,0
+"600",600,"Miss_Grimmer","mad","-3",-3,0
+"601",601,"TaeTuck","favors","2",2,0
+"602",602,"briidavis_","motivation, strong, lol","1, 2, 3",2,0.58
+"603",603,"TheMornAnnounce","great, miss","3, -2",0.5,0
+"604",604,"SirBadgerLord","grey, free","-1, 1",0,0
+"605",605,"mochaprinxess","wish","1",1,0
+"606",606,"cross1wire","desperate","-3",-3,0
+"607",607,"Nomad0982","win, proud, true","4, 2, 2",2.67,0
+"608",608,"PortsVASchools","proud, celebrate, congratulations","2, 3, 2",2.33,0
+"609",609,"QE3FromTheVA","thank, appreciate, kill, moron, controversial, enjoy, bad, no, pay, true, happy, sorry, good, sucks, misleading, comfort, curse, dead, dead, no, like, guarantee","2, 2, -3, -3, -2, 2, -3, -1, -1, 2, 3, -1, 3, -3, -3, 2, -1, -3, -3, -1, 2, 1",-0.41,0.21
+"610",610,"bbticmrm","depressed, positive, good, bias, crime, hate, crime","-2, 2, 3, -1, -3, -3, -3",-1,0.38
+"611",611,"mattbled87","wow, nice","4, 3",3.5,0
+"612",612,"TGuyvor","hard","-1",-1,-1
+"613",613,"StephasaurusW","trust, trust, trust, dumb","1, 1, 1, -3",0,1.5
+"614",614,"brigantine72","want, clear, good, like, ass, like, better, calm, like, yes, true, good, like, good, please, strikers, hoping, nice, like, attacking, lack, true, like, want","1, 1, 3, 2, -4, 2, 2, 2, 2, 1, 2, 3, 2, 3, 1, -2, 2, 3, 2, -1, -2, 2, 2, 1",1.25,0.82
+"615",615,"ECAlertON50","warning, warning","-3, -3",-3,0
+"616",616,"trulibra1978","beautiful","3",3,0
+"617",617,"LoLa_Koala","worst, stupid","-3, -2",-2.5,-0.71
+"618",618,"esandstrum","natural","1",1,0
+"619",619,"chris_harrell_","attraction","2",2,0
+"620",620,"nephewluke_","thank, god","2, 1",1.5,0
+"621",621,"ZhaZhaBethea","good, lol","3, 3",3,0.71
+"622",622,"shep_35","certain, fine","1, 2",1.5,0.71
+"623",623,"SJArmentrout","great","3",3,0
+"624",624,"Sweett_Dreamz","easy, anxiety","1, -2",-0.5,0
+"625",625,"iwantlae","niggas","-5",-5,0
+"626",626,"bryanwhipple13","hope, like, cool, thanks, cool","2, 2, 1, 2, 1",1.6,0
+"627",627,"TConabike","fear","-2",-2,0
+"628",628,"1nonlyJwil","niggas, like","-5, 2",-1.5,0
+"629",629,"ethanclynne","yeah, clear","1, 1",1,0
+"630",630,"Penthouse_Chic","worst, dick","-3, -4",-3.5,-0.71
+"631",631,"KoolBeansMD","aching","-2",-2,0
+"632",632,"amayaniccole","love","3",3,0
+"633",633,"funusual","jesus, hate, crime","1, -3, -3",-1.67,0
+"634",634,"adamlee2702","benefits","2",2,0
+"635",635,"AliceInN0where","positive, like","2, 2",2,0.71
+"636",636,"oldschoolswaff","amazing","4",4,0
+"637",637,"MarqueRobinson","horrible, mess, tired","-3, -2, -2",-2.33,-0.58
+"638",638,"NorfolkLife_","evil, evil, damn, missed, big, fucking","-3, -3, -4, -2, 1, -4",-2.5,0
+"639",639,"RavenMyst1337","yes, help, help","1, 2, 2",1.67,0
+"640",640,"taammeraa","want","1",1,0
+"641",641,"nedlogeel","shit","-4",-4,0
+"642",642,"sandypersisted","better","2",2,1
+"643",643,"KatherineGore2","best","3",3,1
+"644",644,"Forbee217","smart, bullshit","1, -4",-1.5,0
+"645",645,"kwality_","damn, damn","-4, -4",-4,0
+"646",646,"talkyatalkE","love","3",3,0
+"647",647,"TyreGWVa","fight, join","-1, 1",0,0
+"648",648,"Twanlites","ass, hell, yeah, no","-4, -4, 1, -1",-2,0
+"649",649,"DanielxHeffer","best","3",3,1
+"650",650,"autumn_baee_","cute","2",2,0
+"651",651,"ericka_posadas_","beautifully, thank, loved","3, 2, 3",2.67,0
+"652",652,"8MNcD0p6xK524xh","thanks","2",2,0
+"653",653,"ASMONDY","smile, good","2, 3",2.5,0.71
+"654",654,"NinaDorado2","better, nice, free, blame, crazy, jealous, doubt, kind, jealous","2, 3, 1, -2, -2, -2, -1, 2, -2",-0.11,0.33
+"655",655,"JustinKosch","allow","1",1,0
+"656",656,"jewellovedon","help, please, cruel, please, share","2, 1, -3, 1, 1",0.4,0
+"657",657,"KinggTober","like","2",2,0
+"658",658,"Sharpey__69","hope","2",2,0
+"659",659,"emanuelperezoso","killed, swear, fire","-3, -2, -2",-2.33,0
+"660",660,"mrsdp8","wow, good, luck, good, offending","4, 3, 3, 3, -2",2.2,0.89
+"661",661,"iam_resiliency","dream, praise","1, 3",2,0
+"662",662,"lala610","dear","2",2,0
+"663",663,"Joemar14","like, want, positive","2, 1, 2",1.67,0.58
+"664",664,"LifeInFantasy_","fucking, weird","-4, -2",-3,0
+"665",665,"tommykerrison","love, hopefully, improvement, bloody, hell","3, 2, 2, -3, -4",0,0.45
+"666",666,"Bethany_Lyric","care, fight","2, -1",0.5,0
+"667",667,"Greenieweenie96","shit, lol, awesome, afraid, admit, hate, leave, like","-4, 3, 4, -2, -1, -3, -1, 2",-0.25,0
+"668",668,"wowloverva","good, lazy, ignorant, benefits, warm, die, proud, kind, benefit, good, hopefully, wealthy, pay, fair, share, sucks","3, -1, -2, 2, 1, -3, 2, 2, 2, 3, 2, 2, -1, 2, 1, -3",0.75,0.5
+"669",669,"foreign_ara","shit, hurt","-4, -2",-3,0
+"670",670,"CRCNorfolk","faith, faith, trust, god","1, 1, 1, 1",1,0.5
+"671",671,"eosod1940","join, award, winning, secure","1, 3, 4, 2",2.5,0
+"672",672,"VivaLaLads","bad, worse, excuse","-3, -3, -1",-2.33,-1.15
+"673",673,"April_Loveland","warning","-3",-3,0
+"674",674,"_swaggyyc_","yeah, lost, no","1, -3, -1",-1,0
+"675",675,"FBINorfolk","fake, warning, fake","-3, -3, -3",-3,0
+"676",676,"tvljr1","no, hard, bad, struggle","-1, -1, -3, -2",-1.75,-1
+"677",677,"PriorityChevy","smart","1",1,0
+"678",678,"rbeslmc","thank, thank, thank, thank","2, 2, 2, 2",2,0
+"679",679,"MsSchweers_VB","love","3",3,0
+"680",680,"Heldhigh1","fuck, fake, ass","-4, -3, -4",-3.67,0
+"681",681,"JamesWh92627417","missing","-2",-2,0
+"682",682,"Hisyamicum","hail","2",2,0
+"683",683,"Neitraa_","god, chance, love, cry, lol, likes, dead, justice","1, 2, 3, -1, 3, 2, -3, 2",1.12,0
+"684",684,"cole_baty","gross","-2",-2,0
+"685",685,"StampedAJ","appreciate, good, luck, thank, appreciate, good, luck","2, 3, 3, 2, 2, 3, 3",2.57,0.76
+"686",686,"_waxxed","shit, like, beautiful","-4, 2, 3",0.33,0
+"687",687,"The757_D1","like","2",2,0
+"688",688,"AlanaDelRage","love, love","3, 3",3,0
+"689",689,"DrIanBedford","kill, killed, dead","-3, -3, -3",-3,0
+"690",690,"MissyGreyhound","cool","1",1,0
+"691",691,"BabaKristian","grand, great, congrats, wonderful, congrats, wonderful, congrats, great, congrats","3, 3, 2, 4, 2, 4, 2, 3, 2",2.78,0
+"692",692,"KrispyKremeDee","clean","2",2,0
+"693",693,"oldblklib","amazing, free, alone, united","4, 1, -2, 1",1,0
+"694",694,"shaun_clifton","super","3",3,0
+"695",695,"lilreid_4prez","stop","-1",-1,0
+"696",696,"emkuntze","great, opportunity, great, sparkling","3, 2, 3, 3",2.75,0.5
+"697",697,"NickGreyhound1","pretty, no, pay, cool","1, -1, -1, 1",0,0
+"698",698,"cherylyou","congratulations, happy","2, 3",2.5,0
+"699",699,"drewwest_press","love, super, envious, wish, evil, yes, want, gaining, no, screaming, insanity, worse, nonsense, allow, anti, racist, like, pressure, worse, abusive, prison, exposed, violence, help, abusive, die, hell, pay, apology, lost, dead, worse, abusive, prison, exposed, violence, love, super, envious, wish, evil, like, lost, refusing, love, super, envious, wish, evil, like","3, 3, -2, 1, -3, 1, 1, 2, -1, -2, -2, -3, -2, 1, -1, -3, 2, -1, -3, -3, -2, -1, -3, 2, -3, -3, -4, -1, -1, -3, -3, -3, -3, -2, -1, -3, 3, 3, -2, 1, -3, 2, -3, -2, 3, 3, -2, 1, -3, 2",-0.86,-0.42
+"700",700,"canarynorwich","like, happy","2, 3",2.5,0
+"701",701,"Harry_MiniumODU","yes, good, terrorized, hard, love, great, awesome, pain, smile, worth","1, 3, -3, -1, 3, 3, 4, -2, 2, 2",1.2,-0.32
+"702",702,"KNSjogren","beautiful, hate","3, -3",0,0
+"703",703,"PJRB_BONS","fine, better, bad, better","2, 2, -3, 2",0.75,1
+"704",704,"Star5eed","haha, sorry, spam, liked, excited, like, like","3, -1, -2, 2, 3, 2, 2",1.29,0
+"705",705,"tmj_orf_transp","want, like","1, 2",1.5,0
+"706",706,"macewindu81","fake","-3",-3,0
+"707",707,"StrangeCaseCo","thank, best, amazing","2, 3, 4",3,0.58
+"708",708,"AdamAucote","fan, hoping, save, penalty, save, fan, hoping, save, penalty, save, like, overlooked, stronger, penalty, fan","3, 2, 2, -2, 2, 3, 2, 2, -2, 2, 2, -1, 2, -2, 3",1.2,-0.52
+"709",709,"wGarethwilliams","better","2",2,1
+"710",710,"dawnwelsby","sorry","-1",-1,0
+"711",711,"_Diamxnd","want, alone","1, -2",-0.5,0
+"712",712,"ROTTERTRON","fuck, sad, enjoying","-4, -2, 2",-1.33,0.58
+"713",713,"andersoneclair","god, courtesy","1, 2",1.5,0
+"714",714,"jaquanboyce","pray","1",1,0
+"715",715,"maxxon_xavier","stopped, like, like, bad","-1, 2, 2, -3",0,-0.5
+"716",716,"TateForkel","love, lol","3, 3",3,0
+"717",717,"coach_clai","congrats, big","2, 1",1.5,0
+"718",718,"AshTheSnkrhd","thrilled, leave, alone, great","5, -1, -2, 3",1.25,0
+"719",719,"omgloz_","bad","-3",-3,-1
+"720",720,"TheeBlackCarlos","regrets","-2",-2,0
+"721",721,"thesecatstweet","huge, huge, huge","1, 1, 1",1,0
+"722",722,"Jenmuhlenbruck","proud, excited, big","2, 3, 1",2,0
+"723",723,"sebastianotto","fucking","-4",-4,0
+"724",724,"tmj_vap_retail","join","1",1,0
+"725",725,"peayway","murder","-2",-2,0
+"726",726,"13MikeGooding","no, refuse","-1, -2",-1.5,0
+"727",727,"mz_sygnature","favorite","2",2,0
+"728",728,"SoPocast","cool","1",1,0
+"729",729,"mragiles","rob","-2",-2,0
+"730",730,"gimmepoompoom","jealous","-2",-2,0
+"731",731,"BenHuntley2000","likes, good","2, 3",2.5,0.71
+"732",732,"norfolkhorns","superb","5",5,0
+"733",733,"hopeufoundation","awesome, agree, great, awesome, hope, help","4, 1, 3, 4, 2, 2",2.67,0
+"734",734,"mp3chaos","no","-1",-1,0
+"735",735,"IBRustyJim","misinformation, support","-2, 2",0,0
+"736",736,"IsisJustice1","no, greater, risk, wrong, lost, lol","-1, 3, -2, -2, -3, 3",-0.33,0
+"737",737,"KristophrRClark","please, missed, killing, better","1, -2, -3, 2",-0.5,0.5
+"738",738,"MagicMarc18","yeah, yeah, lmao, better, asshole","1, 1, 4, 2, -4",0.8,0.45
+"739",739,"jacksalter96","mad, boring, yeah, interesting, wasting","-3, -3, 1, 2, -2",-1,0
+"740",740,"ckdemoms","best, funny, funny, no, better","3, 4, 4, -1, 2",2.4,0.89
+"741",741,"_sonye_","tired","-2",-2,-1
+"742",742,"FTWolf3","funny, happy, best","4, 3, 3",3.33,0.58
+"743",743,"Collins__Sports","aggression, chance, best, chance, like, shoot, no","-2, 2, 3, 2, 2, -1, -1",0.71,0.38
+"744",744,"Anaaa_R_","worth, worth","2, 2",2,0
+"745",745,"eazzy92","leave","-1",-1,0
+"746",746,"GottliebPaul","sorry, loss, missed, hope, beautiful","-1, -3, -2, 2, 3",-0.2,0
+"747",747,"malone_nyl","great, free, protect, loved, free, best","3, 1, 1, 3, 1, 3",2,0.41
+"748",748,"amyameliakm","fuck","-4",-4,0
+"749",749,"PhotobombChamp","shit, like, like, great, good, like, attack, cool","-4, 2, 2, 3, 3, 2, -1, 1",1,0.35
+"750",750,"psychicshayla","support","2",2,0
+"751",751,"AshleyHowell2","honest, love, hard, worth, haha","2, 3, -1, 2, 3",1.8,-0.45
+"752",752,"EasyBreezyXXL","wow","4",4,0
+"753",753,"WAVY10Bob","big, died","1, -3",-1,0
+"754",754,"_uniflowerr","no, like, fuck","-1, 2, -4",-1,0
+"755",755,"EColvinRE","love","3",3,0
+"756",756,"cafrindorrell","happy","3",3,0
+"757",757,"Jesssss302","yeah, helps, upset, bad, advantage, better, like","1, 2, -2, -3, 2, 2, 2",0.57,0
+"758",758,"ODURepTheatre","welcome, please, please","2, 1, 1",1.33,0
+"759",759,"AshleyN_Barnett","yes, abuse, conflict, abuse, trauma, disturbing","1, -3, -2, -3, -3, -2",-2,0
+"760",760,"tmj_vap_health","care, like","2, 2",2,0
+"761",761,"USCGLANTAREA","accomplish, great","2, 3",2.5,0.71
+"762",762,"ThaReal_Ceo","tired, like","-2, 2",0,-0.71
+"763",763,"_bliq","worried","-3",-3,0
+"764",764,"Uncle_Chinese","thank, big","2, 1",1.5,0
+"765",765,"_skvnny","pretty, niggas, fucking","1, -5, -4",-2.67,0
+"766",766,"Trey__White","fuck, hurt, bad, cried, killed","-4, -2, -3, -2, -3",-2.8,-0.45
+"767",767,"757Lakers","join","1",1,0
+"768",768,"itsmamatyty","want","1",1,0
+"769",769,"tomcollishaw","kind, thank, hope, good, great, thanks, lucky, great, support","2, 2, 2, 3, 3, 2, 3, 3, 2",2.44,0.67
+"770",770,"ktgwaye","proud, legal","2, 1",1.5,0
+"771",771,"bungalsrback","yes, agree","1, 1",1,0
+"772",772,"JamarrW","lol","3",3,0
+"773",773,"Reeq___","niggas, drop, niggas, lame, shit, wtf","-5, -1, -5, -2, -4, -4",-3.5,-0.41
+"774",774,"Philip_Payne48","yes, please","1, 1",1,0
+"775",775,"miraixavier","likes, glad, broke, mad, hate, loved","2, 3, -1, -3, -3, 3",0.17,0
+"776",776,"42dodgerblue","perfect","3",3,0
+"777",777,"Steev_c","disappointment","-2",-2,-1
+"778",778,"ExaltChurchVA","join, supporting, god, faith","1, 1, 1, 1",1,0
+"779",779,"YPtHRive","limited","-1",-1,0
+"780",780,"ViMa711","difficult, appreciate, no, matter, enjoying, soothing, smile, enjoy, like, better, amazing, beautiful, help, support, kind, best, better, best, share, better, hard, enjoy, want, enjoy, enjoy, helps, helps, difficult, smile, appreciate, hate, appreciate, want, enjoy","-1, 2, -1, 1, 2, 3, 2, 2, 2, 2, 4, 3, 2, 2, 2, 3, 2, 3, 1, 2, -1, 2, 1, 2, 2, 2, 2, -1, 2, 2, -3, 2, 1, 2",1.56,1.37
+"781",781,"ajahsfinest","funny","4",4,0
+"782",782,"sarah_skelton1","feeling, proud","1, 2",1.5,0
+"783",783,"Chris_Price2020","leave, no, doubt","-1, -1, -1",-1,0
+"784",784,"NorfolkVA","waste, waste, please, please","-1, -1, 1, 1",0,0
+"785",785,"KaraWAVY","no, grants, help, like","-1, 1, 2, 2",1,0
+"786",786,"igotkickss","shit","-4",-4,0
+"787",787,"psychxdolll","shit","-4",-4,0
+"788",788,"jamieecollinsx","awkward, mad, shit","-2, -3, -4",-3,0
+"789",789,"Majin_Buu1713","yes","1",1,0
+"790",790,"isssakirra","ignore, ugly","-1, -3",-2,0
+"791",791,"millianarie","no, bitches","-1, -5",-3,0
+"792",792,"zzay_zay","no","-1",-1,0
+"793",793,"da_von23","good, cheer, care","3, 2, 2",2.33,0.58
+"794",794,"Watson_Walker","protect","1",1,0
+"795",795,"_officialdassy","love","3",3,0
+"796",796,"PearsonSocko","yes, like","1, 2",1.5,0
+"797",797,"WarviewVA757","no, shit, weird, lol","-1, -4, -2, 3",-1,0
+"798",798,"Books1799","awesome","4",4,0
+"799",799,"spiideylove","ass, shit, love, cutting","-4, -4, 3, -1",-1.5,0
+"800",800,"CareersAtNS","interested, great, fit","2, 3, 1",2,0
+"801",801,"KingCarl86","yes, better, thanks, beautiful, smile","1, 2, 2, 3, 2",2,0.45
+"802",802,"Dale3NascarFan","better, bad, stop, lol, easy, nice, angry, troubles, peace, easy, nice, angry, troubles, peace, huge","2, -3, -1, 3, 1, 3, -3, -2, 2, 1, 3, -3, -2, 2, 1",0.27,0
+"803",803,"SLMillaci","robust","2",2,0
+"804",804,"oChiIly","congrats","2",2,0
+"805",805,"demonSeaweed","no","-1",-1,0
+"806",806,"aaron_j_m","accidental","-2",-2,0
+"807",807,"tmj_orf_govern","opportunity","2",2,1
+"808",808,"goallind","yeah, good","1, 3",2,0.71
+"809",809,"tara1966","like","2",2,0
+"810",810,"KeithFlippen","strength, love","2, 3",2.5,0.71
+"811",811,"lisashelburne","dumb, hell","-3, -4",-3.5,0
+"812",812,"oducds","effective","2",2,0
+"813",813,"YLPSport","wins, success, winning","4, 2, 4",3.33,0.58
+"814",814,"stuntcat","suicide, illegal","-2, -3",-2.5,0
+"815",815,"brickWAVY","no","-1",-1,0
+"816",816,"ideshanel","praying","1",1,0
+"817",817,"Slurpee_1120","wish","1",1,0
+"818",818,"WTabasum3","shame","-2",-2,0
+"819",819,"milliamp_yt","wtf, hate","-4, -3",-3.5,0
+"820",820,"sxvannahjo","damn, lol","-4, 3",-0.5,0
+"821",821,"JohnnyKrills","like, bitches","2, -5",-1.5,0
+"822",822,"bonnieb0nita","leave","-1",-1,0
+"823",823,"Nathan_Epstein","like","2",2,0
+"824",824,"Jan0s1de","no, limited","-1, -1",-1,0
+"825",825,"RNMejia","enjoying","2",2,1
+"826",826,"dcrowe1974","agree","1",1,0
+"827",827,"Browns641","drop","-1",-1,-1
+"828",828,"jamesowild","important","2",2,0
+"829",829,"Shannonmmanning","pretty, safe, scary, hell, no, no","1, 1, -2, -4, -1, -1",-1,0
+"830",830,"Itsaa_ronlaw","god, like","1, 2",1.5,0
+"831",831,"adamjones199","want, no, suspects, hope, better, fit, interesting","1, -1, -1, 2, 2, 1, 2",0.86,0.38
+"832",832,"CurleyDick","love, wow","3, 4",3.5,0
+"833",833,"wigtuneup","free, no, thank","1, -1, 2",0.67,0
+"834",834,"alexamservices","big, improvement, dumped, smart","1, 2, -2, 1",0.5,0.5
+"835",835,"1twentymusic","accepted, abuse, shitty","1, -3, -3",-1.67,0
+"836",836,"EvesHill","thanks, barrier, please","2, -2, 1",0.33,0
+"837",837,"HelenRHoward","exciting, great, opportunity","3, 3, 2",2.67,0.58
+"838",838,"bulletdababy","wow","4",4,0
+"839",839,"millerrandye","wow, clean, pay","4, 2, -1",1.67,0
+"840",840,"lavosbit","cool","1",1,0
+"841",841,"Norfolkstate","free, advantage, opportunity, allow, chance, free, sweet, join","1, 2, 2, 1, 2, 1, 2, 1",1.5,0.35
+"842",842,"1_Dolo757","help, shit, crazy, free, mad, damn, great","2, -4, -2, 1, -3, -4, 3",-1,0
+"843",843,"_cvryn","wrong, like, god, like, god, laughing, convinced, screaming","-2, 2, 1, 2, 1, 1, 1, -2",0.5,0
+"844",844,"slumpbrake","drop, crisis","-1, -3",-2,-0.71
+"845",845,"Quasimodis","glad, blocked","3, -1",1,0
+"846",846,"RobboITV","interest","1",1,0
+"847",847,"Essexbird19","wow, lovely, like","4, 3, 2",3,0
+"848",848,"lishen414","better","2",2,1
+"849",849,"BealesAndrew","responsible, war","2, -2",0,0
+"850",850,"hoytcast","severe","-2",-2,0
+"851",851,"LeilaWorks","nice, nice, nice","3, 3, 3",3,0
+"852",852,"NorfolkPO","good, hard, fun, interesting","3, -1, 4, 2",2,0
+"853",853,"daniellestern","yes","1",1,0
+"854",854,"obligatoryjoke","lost, luckily","-3, 3",0,0
+"855",855,"CallGod_2","unemployment, hurt","-2, -2",-2,0
+"856",856,"DobermanDwayne","easy","1",1,0
+"857",857,"loveaajeonia","dead, like","-3, 2",-0.5,0
+"858",858,"STEFawnFLORES","worst","-3",-3,-1
+"859",859,"RepElaineLuria","importance, choke","2, -2",0,0
+"860",860,"ReginaMobley757","approved","2",2,0
+"861",861,"dablacktino","growing, best","1, 3",2,1.41
+"862",862,"Bankes85","good","3",3,1
+"863",863,"ImClydeTheGoat","easy, loved","1, 3",2,0
+"864",864,"ADoseofHopeRad1","inspirational, highlight, amazing, gift, inspirational","2, 2, 4, 2, 2",2.4,0
+"865",865,"helptigray2021","urgent, starved, abused, no, hope, blind, stop, stop","-1, -2, -3, -1, 2, -1, -1, -1",-1,0
+"866",866,"eelsaregood","worse","-3",-3,-1
+"867",867,"ODUSEES","limited","-1",-1,0
+"868",868,"stonedfattie","nice, like","3, 2",2.5,0
+"869",869,"Norfolk3124","damn","-4",-4,0
+"870",870,"PeteWashford","want, miss, smile, want, miss, kiss, want, like","1, -2, 2, 1, -2, 2, 1, 2",0.62,0
+"871",871,"JakonHays","like","2",2,0
+"872",872,"dlserafine","better, improve","2, 2",2,1.41
+"873",873,"rubbercake","nice, interest, strong","3, 1, 2",2,0.58
+"874",874,"CavalierInc","hard, care","-1, 2",0.5,-0.71
+"875",875,"Shady_Stevens","sorry, appreciate","-1, 2",0.5,0
+"876",876,"RobDaws9","interesting, love, good","2, 3, 3",2.67,0.58
+"877",877,"naejj96","good, lol","3, 3",3,0.71
+"878",878,"NeilGraham5","lovely","3",3,0
+"879",879,"Polaris77079091","like","2",2,0
+"880",880,"ZookaRaj","problem","-2",-2,0
+"881",881,"6thAve_LandLord","favorite","2",2,0
+"882",882,"MikeD_Made_it","hell, hell","-4, -4",-4,0
+"883",883,"MiniRetrobates","like, bad, please, perfect","2, -3, 1, 3",0.75,-0.5
+"884",884,"Cannydc1","no, empty, nice, ensure, fair, like, stop, no, reach","-1, -1, 3, 1, 2, 2, -1, -1, 1",0.56,0
+"885",885,"realcuteassbri","hurt, bad","-2, -3",-2.5,-0.71
+"886",886,"MystikPiglit","hopefully","2",2,0
+"887",887,"WBHS_Bruins","please, help, welcome, welcome","1, 2, 2, 2",1.75,0
+"888",888,"TheReal_33","hell, yeah","-4, 1",-1.5,0
+"889",889,"YOONUZIVERT","fine, like, fine","2, 2, 2",2,1.15
+"890",890,"norfolk_dems","true, fear, god, help","2, -2, 1, 2",0.75,0
+"891",891,"tmj_orf_manuf","intelligent","2",2,0
+"892",892,"Mitchel62120526","lost","-3",-3,0
+"893",893,"edb_teach","favorite","2",2,0
+"894",894,"ISBioTech","fantastic, join","4, 1",2.5,0
+"895",895,"ClaireW_UK","good, amazing, beautiful","3, 4, 3",3.33,0.58
+"896",896,"DestinnnyG","die, bad, agree, big","-3, -3, 1, 1",-1,-0.5
+"897",897,"JinaVegaLopez","afraid, wow, success, wrong, worst, better, honest, god, bad","-2, 4, 2, -2, -3, 2, 2, 1, -3",0.11,0
+"898",898,"dylande99522916","please, dead, please","1, -3, 1",-0.33,0
+"899",899,"KapnKanuckles","dumbass, weak, hell, niggas, niggas, healthy, sentence","-3, -2, -4, -5, -5, 2, -2",-2.71,-0.38
+"900",900,"jamesmtyrrell","lovely","3",3,0
+"901",901,"PartyPardo","please, worthy, praise","1, 2, 3",2,0
+"902",902,"Cynthia44508198","glad","3",3,0
+"903",903,"gator59046887","kiss, love","2, 3",2.5,0
+"904",904,"James1972","damn, love","-4, 3",-0.5,0
+"905",905,"pwatkins1999","no","-1",-1,0
+"906",906,"key75781","love, love, please","3, 3, 1",2.33,0
+"907",907,"IAmTheFyre","limits, hard, strength","-1, -1, 2",0,0
+"908",908,"cityofPortsVA","effective","2",2,0
+"909",909,"GlassBraces","care, outstanding, cutting, effective","2, 5, -1, 2",2,0
+"910",910,"Coach_Odums","better, better, strong, good, no","2, 2, 2, 3, -1",1.6,1.79
+"911",911,"navy_reserve","top, support","2, 2",2,0
+"912",912,"fuckajxo","thank, excited","2, 3",2.5,0
+"913",913,"rockanddirt","pleasant","3",3,0
+"914",914,"_WeLuvJAS","drown","-2",-2,0
+"915",915,"civic_hr","ensure","1",1,0
+"916",916,"FatJesusLive","like, greatest, fuck, costly, mistakes","2, 3, -4, -2, -2",-0.6,0.45
+"917",917,"johndawsonbaby","growth, fitness","2, 1",1.5,0.71
+"918",918,"AdrianeRinehart","guarantee, lost","1, -3",-1,0
+"919",919,"darwinconor","cool, fuck, yeah, clean","1, -4, 1, 2",0,0
+"920",920,"Westwindsapts","happy, happy, hope, amazing, cheers","3, 3, 2, 4, 2",2.8,0
+"921",921,"ItsMonieBih","want, lol, miss","1, 3, -2",0.67,0
+"922",922,"igotda_juice5","lmao","4",4,0
+"923",923,"1cxb_","crazy","-2",-2,0
+"924",924,"Mz_Joyner","wish","1",1,0
+"925",925,"afrugalchick","lowest","-1",-1,-1

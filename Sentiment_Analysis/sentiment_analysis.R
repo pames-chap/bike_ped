@@ -2,6 +2,9 @@ library(readr)
 library(tidyverse)
 library(tidytext)
 library(textdata)
+library(topicmodels)
+library(tm)
+library(SnowballC)
 library(dplyr)
 library(rlang)
 library(ggplot2)
@@ -10,10 +13,14 @@ library(stringr)
 library(rtweet)
 library(sentimentr)
 library(lubridate)
+library(rJava)
+library(qdap)
 
 #IMPORTING LEXICONS CODE--------------------------------------------------------
   #Loading in sentiment lexicon
   afinn_lexicon <- get_sentiments("afinn")
+  #bing_lexicon <- get_sentiments("bing")
+  #nrc_lexicon <- get_sentiments("nrc")
   
   #Importing valence lexicon
   valence_lexicon <- as.data.frame(lexicon::hash_valence_shifters)
@@ -183,7 +190,7 @@ score_domain_specific_sentiment = function(content, score_type="valence")
 # simple_tweets <- simple_tweets %>% na_if (0) # -1 to 1
 # View(simple_tweets)
 
-#CLEANING TWITTER TEXT----------------------------------------------------------
+#CLEANING TWITTER TEXT--------------------------------------------------------
 clean_text <- function(text) {
   #text column should be named 'text' in dataframe
   text$text = tolower(text$text)
@@ -261,54 +268,158 @@ score <- function(tweets_df, lexicon) {
 }
 
 #SAVE CSV-----------------------------------------------------------------------
-save_csv <- function(df) {
+save_csv <- function(tweets_df) {
   #save to csv
-  write_csv(df, paste0("output/", format(Sys.time(), "%d-%b-%Y %H.%M"), ".csv"), append = TRUE)
+  defaultW <- getOption("warn") 
+  options(warn = -1) 
+  write.table(tweets_df, file = paste0("output/", format(Sys.time(), "%Y-%m-%d"), ".csv"), sep = ",", append = TRUE, quote = FALSE,
+              col.names = TRUE, row.names = FALSE)
+  options(warn = defaultW)
 }
 
 
 
 #ANALYSES-----------------------------------------------------------------------
-#test <- tweets
-
-avg_daily_sentiment <- function(tweets_df, lexicon) {
+average_daily_sentiment_csv <- function(tweets_df) {
   
   daily_sentiment <- data.frame() %>% 
     add_column(date = NA,
-               average_sentiment = NA)
-  
+               average_afinn_sentiment = NA,
+               average_polarity_sentiment = NA)
   
   current_date = format(Sys.time(), "%Y-%m-%d")
   
-  tweets_df <- tweets_df %>%
-    mutate(created_at = round_date(created_at, unit = "day"))
+  average_afinn_sentiment <- round(mean(tweets_df$afinn_lexicon_scores, na.rm = TRUE), 3)
+  average_polarity_sentiment <- round(mean(tweets_df$polarity_lexicon_scores, na.rm = TRUE), 3)
   
-  tweets_df <- tweets_df %>%
-    filter(created_at == as.Date(current_date))
-  
-  head(tweets_df)
-
-  tweets_df = filter(tweets_df, created_at == current_date)
+  new_row = c(current_date, average_afinn_sentiment, average_polarity_sentiment)
   
   
-  daily_mean <- mean(tweets_df[[paste0(enexpr(lexicon), "_scores")]], na.rm = TRUE)
-  print(daily_mean)
+  daily_sentiment[nrow(daily_sentiment)+1,] <- new_row
   
-  new_row = c(current_date, daily_mean)
+  defaultW <- getOption("warn") 
+  options(warn = -1) 
+  write.table(daily_sentiment, file = "output/average_daily_sentiments.csv", sep = ",", append = TRUE, quote = FALSE,
+              col.names = FALSE, row.names = FALSE)
+  options(warn = defaultW)
   
-  daily_sentiment <- rbind(daily_sentiment, new_row)
-  
-  return(daily_sentiment)
 }
 
-#daily_sentiment <- avg_daily_sentiment(test, afinn_lexicon)
+test <- tweets
 
-#view(daily_sentiment)
+clean_terms <- function(terms) {
+  #text column should be named 'text' in dataframe
+  terms = tolower(terms)
+  terms = gsub("[^[:alnum:] ]", "", terms)
+  return(terms)
+}
+
+clean_stop_words_LDA <- function(input_text){
+  
+  Corpus <- Corpus(VectorSource(input_text)) 
+  DTM <- DocumentTermMatrix(Corpus)
+  
+  # convert the document term matrix to a tidytext corpus
+  DTM_tidy <- tidy(DTM)
+  # I'm going to add my own custom stop words that I don't think will be
+  # very informative in hotel reviews
+  #custom_stop_words <- tibble(word = c())
+  
+  # remove stopwords
+  DTM_tidy_cleaned <- DTM_tidy %>% # take our tidy dtm and...
+    anti_join(stop_words, by = c("term" = "word"))# %>% # remove English stopwords and...
+    #anti_join(custom_stop_words, by = c("term" = "word")) # remove my custom stopwords
+  
+view(stop_words)
+  
+  
+  DTM_tidy_cleaned <- DTM_tidy_cleaned %>% 
+    mutate(stem = wordStem(term))
+  
+  # reconstruct cleaned documents (so that each word shows up the correct number of times)
+  # reconstruct our documents
+  cleaned_documents <- DTM_tidy_cleaned %>%
+    group_by(document) %>% 
+    mutate(terms = toString(rep(stem, count))) %>%
+    select(document, terms) %>%
+    unique()
+
+}
+
+cleaned_input_text <- clean_stop_words_LDA(test$text)
+
+# function to get & plot the most informative terms by a specificed number
+# of topics, using LDA
+top_terms_by_topic_LDA <- function(input_text, # should be a columm from a dataframe
+                                   plot = T, # return a plot? TRUE by defult
+                                   number_of_topics = 4) # number of topics (4 by default)
+{ 
+  
+  #cleaned_input_text <- clean_stop_words_LDA(input_text)
+  
+  Corpus <- Corpus(VectorSource(cleaned_input_text$terms)) # make a corpus object
+  DTM <- DocumentTermMatrix(Corpus) # get the count of words/document
+  
+  # remove any empty rows in our document term matrix (if there are any 
+  # we'll get an error when we try to run our LDA)
+  unique_indexes <- unique(DTM$i) # get the index of each unique value
+  DTM <- DTM[unique_indexes,] # get a subset of only those indexes
+  
+  # preform LDA & get the words/topic in a tidy text format
+  lda <- LDA(DTM, k = number_of_topics, control = list(seed = 1234))
+  topics <- tidy(lda, matrix = "beta")
+  
+  # get the top ten terms for each topic
+  top_terms <- topics  %>% # take the topics data frame and..
+    group_by(topic) %>% # treat each topic as a different group
+    top_n(10, beta) %>% # get the top 10 most informative words
+    ungroup() %>% # ungroup
+    arrange(topic, -beta)  # arrange words in descending informativeness
+   
+  top_terms$term <- clean_terms(top_terms$term)
+  # if the user asks for a plot (TRUE by default)
+  if(plot == T){
+    # plot the top ten terms for each topic in order
+    top_terms %>% # take the top terms
+      mutate(term = reorder(term, beta)) %>% # sort terms by beta value 
+      ggplot(aes(term, beta, fill = factor(topic))) + # plot beta by theme
+      geom_col(show.legend = FALSE) + # as a bar plot
+      facet_wrap(~ topic, scales = "free") + # which each topic in a seperate plot
+      labs(x = NULL, y = "Beta") + # no x label, change y label 
+      coord_flip() # turn bars sideways
+  }
+
+  else{ 
+    # if the user does not request a plot
+    # return a list of sorted terms instead
+    return(top_terms)
+  }
+}
+
+# plot top ten terms in the hotel reviews by topic
+top_terms_by_topic_LDA(cleaned_input_text$terms, number_of_topics = 3) #NEED TO DETERMINE CORRECT NUMBER OF TOPICS
+
+#Use tf-idf to and group by census tract
+#use diabetes to determine the topics (do certain census tracts have with higher diabetes rates have different sentiment scores)
+#try to see if there's anything related to food deserts in different census tracts
+#look at different key words for groups (vaccines, boosters, etc. )
+
+#building daily average sentiment scores
+test <- tweets
+
+average_census_tract_sentiment <- function(tweets_df){
+  tweets_df <- tweets_df %>% group_by(census_tract)
+  
+  census_tract_sentiment <- tweets_df %>%
+    group_by(census_tract) %>%
+    summarise_at(vars(afinn_lexicon_scores, polarity_lexicon_scores), list(name = mean), na.rm = TRUE)
+  
+  census_tract_sentiment$date <- format(Sys.time(), "%Y-%m-%d")
+  
+  view(census_tract_sentiment)
+}
 
 
-
-
-
-
-
+avg_census_tract <- average_census_tract_sentiment(test)
+view(avg_census_tract)
 

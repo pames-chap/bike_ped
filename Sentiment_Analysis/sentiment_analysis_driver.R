@@ -1,6 +1,6 @@
 source("sentiment_analysis.R")
 
-church_and_school_locations <- read.csv("datasets/churches_public_schools.csv", header = TRUE)
+church_and_school_locations <- read.csv("datasets/census_tracts_with_lat_lon.csv", header = TRUE)
 census_demographic_data <- read.csv("datasets/census_tract_demographic_data.csv", header = TRUE)
 
 #BUILDING TWEETS DF-------------------------------------------------------------
@@ -16,8 +16,8 @@ tweets <- score(tweets, afinn_lexicon) #scores afinn tweets
 
 tweets <- score(tweets, polarity_lexicon) #scores polarity tweets
 
-save_csv(tweets)
-
+save_csv(tweets) #appends tweets to csv file
+average_daily_sentiment_csv(tweets) #saves daily average
 
 
 
@@ -29,9 +29,6 @@ tweets_demographic <- left_join(tweets, census_demographic_data, by = "census_tr
 
 
 #To-do
-#Pull average sentiment from each location for each day
-#Pull average sentiment from each census tract
-#Ross will send new csv information to connect to to sentiment_analyses script since it has updates coordinates
 #You could start analyses on the health outcomes, demographic info, census tract information etc to see if there are any correlations
 #Possibly study happiness on different levels of the week to see if there is any correlations 
   #could also relate to the sunday phenomena

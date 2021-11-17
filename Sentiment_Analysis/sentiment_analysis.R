@@ -330,8 +330,6 @@ clean_stop_words_LDA <- function(input_text){
     anti_join(stop_words, by = c("term" = "word"))# %>% # remove English stopwords and...
     #anti_join(custom_stop_words, by = c("term" = "word")) # remove my custom stopwords
   
-view(stop_words)
-  
   
   DTM_tidy_cleaned <- DTM_tidy_cleaned %>% 
     mutate(stem = wordStem(term))
@@ -399,7 +397,76 @@ top_terms_by_topic_LDA <- function(input_text, # should be a columm from a dataf
 # plot top ten terms in the hotel reviews by topic
 top_terms_by_topic_LDA(cleaned_input_text$terms, number_of_topics = 3) #NEED TO DETERMINE CORRECT NUMBER OF TOPICS
 
+
+#inner joining cleaned text with cenus_tract
+cleaned_input_text$document <- as.integer(cleaned_input_text$document)
+cleaned_text_w_census_tract <- inner_join(cleaned_input_text, test, by = c("document" = "ID"))
+cleaned_text_w_census_tract$census_tract <- as.character(cleaned_text_w_census_tract$census_tract)
+cleaned_text_w_census_tract <- as.data.frame(cleaned_text_w_census_tract)
+
+top_terms_by_topic_tfidf <- function(text_df, text_column, group_column, plot = T){
+  # name for the column we're going to unnest_tokens_ to
+  # (you only need to worry about enquo stuff if you're
+  # writing a function using using tidyverse packages)
+  group_column <- enquo(group_column)
+  text_column <- enquo(text_column)
+  
+  
+  # get the count of each word in each review
+  words <- text_df %>%
+    unnest_tokens(word, !!text_column) %>%
+    count(!!group_column, word) %>% 
+    ungroup()
+
+  # get the number of words per text
+  total_words <- words %>% 
+    group_by(!!group_column) %>% 
+    summarize(total = sum(n))
+  
+  # combine the two dataframes we just made
+  words <- left_join(words, total_words)
+  
+  # get the tf_idf & order the words by degree of relevence
+  tf_idf <- words %>%
+    bind_tf_idf(word, !!group_column, n) %>%
+    select(-total) %>%
+    arrange(desc(tf_idf)) %>%
+    mutate(word = factor(word, levels = rev(unique(word))))
+  
+  if(plot == T){
+    # convert "group" into a quote of a name
+    # (this is due to funkiness with calling ggplot2
+    # in functions)
+    group_name <- quo_name(group_column)
+    
+    # plot the 10 most informative terms per topic
+    tf_idf %>% 
+      group_by(!!group_column) %>% 
+      top_n(5) %>% 
+      ungroup %>%
+      ggplot(aes(word, tf_idf, fill = as.factor(group_name))) +
+      geom_col(show.legend = FALSE) +
+      labs(x = NULL, y = "tf-idf") +
+      facet_wrap(reformulate(group_name), scales = "free") +
+      coord_flip()
+  }else{
+    # return the entire tf_idf dataframe
+    return(tf_idf)
+  }
+}
+
+top_terms_by_topic_tfidf(text_df = cleaned_text_w_census_tract, # dataframe
+                         text_column = terms, # column with text
+                         group_column = census_tract, # column with topic label
+                         plot = T) # return a plot
+
+
 #Use tf-idf to and group by census tract
+  #only inlcude census tracts with over 5 terms
+  #try to remove ties from top_n function
+  #use usernames from dataframe to remove them form tf-idf
+  #normalize x-axis on tf-idf
+
 #use diabetes to determine the topics (do certain census tracts have with higher diabetes rates have different sentiment scores)
 #try to see if there's anything related to food deserts in different census tracts
 #look at different key words for groups (vaccines, boosters, etc. )

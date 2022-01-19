@@ -17,11 +17,13 @@ tweets <- score(tweets, afinn_lexicon) #scores afinn tweets
 tweets <- score(tweets, polarity_lexicon) #scores polarity tweets
 
 save_csv(tweets) #appends tweets to csv file
-average_daily_sentiment_csv(tweets) #saves daily average
+
 
 
 
 #TWEETS ANALYSIS----------------------------------------------------------------
+average_daily_sentiment_csv(tweets) #saves daily average
+
 tweets_demographic <- left_join(tweets, census_demographic_data, by = "census_tract")
 
 

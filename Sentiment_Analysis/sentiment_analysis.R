@@ -103,7 +103,7 @@ search_tweet <- function(formatted_df) {
   for (i in formatted_coordinate_df$formatted_locations.coords_formatted) {
     print(i)
     try ({
-      single_search_df <- search_tweets("lang:en", geocode = i, n = 100, retryonratelimit = FALSE) 
+      single_search_df <- search_tweets("lang:en", geocode = i, n = 50, retryonratelimit = FALSE) 
       single_search_df <- single_search_df %>% #adds coords_formatted column to search_tweet column
         add_column(coords_formatted = i)
       single_search_df <- left_join(single_search_df, formatted_df, by = "coords_formatted") #left joins location data on coord_formatted column
@@ -111,7 +111,7 @@ search_tweet <- function(formatted_df) {
     })
     
   }
-  every_search_df <- every_search_df[!duplicated(every_search_df$screen_name), ] #removes duplicates due to large radius
+  #every_search_df <- every_search_df[!duplicated(every_search_df$screen_name), ] #removes duplicates due to large radius
   every_search_df <- clean_text(every_search_df)
   every_search_df <- reduce_tweets_df_width(every_search_df)
   return(every_search_df)
@@ -222,7 +222,7 @@ lexicon_function <- function(tweets_df, lexicon) {
   copy_tweets[[all_values_name]] <- with(copy_tweets, x2)
   
   copy_tweets <- copy_tweets %>% select(-x1, -x2)
-  copy_tweets <- copy_tweets[!duplicated(copy_tweets$screen_name), ]
+  #copy_tweets <- copy_tweets[!duplicated(copy_tweets$screen_name), ]
   
   tweets_df <- left_join(tweets_df, copy_tweets, by = "screen_name")
   #eliminating duplicate values
@@ -426,11 +426,12 @@ top_terms_by_topic_tfidf <- function(text_df, text_column, group_column, plot = 
   # combine the two dataframes we just made
   words <- left_join(words, total_words)
   
-  # get the tf_idf & order the words by degree of relevence
+  # get the tf_idf & order the words by degree of relevance
   tf_idf <- words %>%
     bind_tf_idf(word, !!group_column, n) %>%
     select(-total) %>%
     arrange(desc(tf_idf)) %>%
+    filter(n_distinct(word) >= 5) %>% 
     mutate(word = factor(word, levels = rev(unique(word))))
   
   if(plot == T){
@@ -439,17 +440,22 @@ top_terms_by_topic_tfidf <- function(text_df, text_column, group_column, plot = 
     # in functions)
     group_name <- quo_name(group_column)
     
-    # plot the 10 most informative terms per topic
+    # plot the 5 most informative terms per topic
     tf_idf %>% 
       group_by(!!group_column) %>% 
-      top_n(5) %>% 
+      slice_max(order_by = tf_idf, n = 5, with_ties = FALSE) %>% 
+      anti_join(tweets, by = c("word" = "screen_name")) %>% 
+      filter(n() >= 5) %>% 
       ungroup %>%
       ggplot(aes(word, tf_idf, fill = as.factor(group_name))) +
       geom_col(show.legend = FALSE) +
       labs(x = NULL, y = "tf-idf") +
-      facet_wrap(reformulate(group_name), scales = "free") +
+      facet_wrap(reformulate(group_name), scales = "free_y", shrink = TRUE) +
+      ylim(0,1) +
       coord_flip()
-  }else{
+    
+  }
+  else{
     # return the entire tf_idf dataframe
     return(tf_idf)
   }
@@ -462,10 +468,10 @@ top_terms_by_topic_tfidf(text_df = cleaned_text_w_census_tract, # dataframe
 
 
 #Use tf-idf to and group by census tract
-  #only inlcude census tracts with over 5 terms
-  #try to remove ties from top_n function
-  #use usernames from dataframe to remove them form tf-idf
-  #normalize x-axis on tf-idf
+  #allow duplicates for tweets in census tracts
+  #re-run tf_idf with larger tweets dataset
+  #title the plot
+  #add new analysis driver
 
 #use diabetes to determine the topics (do certain census tracts have with higher diabetes rates have different sentiment scores)
 #try to see if there's anything related to food deserts in different census tracts
